@@ -1,0 +1,827 @@
+<!-- Process the settings -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html itemscope itemtype="http://schema.org/Science">
+<head>
+	<title>
+		Digital Corpus of Sanskrit (DCS) - Online Sanskrit dictionary and annotated corpus [Texts]	</title>
+	<meta name="description" content="The Digital Corpus of Sanskrit contains lemmatized and POS-tagged texts from all layers and genres of Sanskrit literature.">
+	<meta name="author" content="Oliver Hellwig"/>
+	<meta name="keywords" content="Sanskrit, corpus, corpus linguistics, dictionary, Sanskrit online dictionary, Sanskrit corpus, KWIC, key-word-in-context, lexicography, lexicon, citation, parallels">
+	<meta name="google-site-verification" content="YIPZCkqDobyvaaEbbLY6bGeDFM6d2UCVEod5tsPuQIw" />
+	<meta itemprop="name" content="Digital Corpus of Sanskrit"/>
+	<meta itemprop="description" content="Online dictionary of Sanskrit"/>
+	<meta itemprop="image" content="img/TabBg.gif"/>
+	<link rel="stylesheet" type="text/css" href="design/layout.css"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/><!-- "position: fixed" fix for Android 2.2+ -->
+	<link rel="stylesheet" href="annotation/FrameNet/style.css" type="text/css" media="screen"/>
+	<script type="text/javascript" src="annotation/redips-drag-min.js"></script>
+	<script type="text/javascript" src="annotation/FrameNet/script.js"></script>
+	  <script type="text/javascript" src="libraries/socialshareprivacy/jquery-1.7.1.js"></script> 
+	  <script type="text/javascript" src="libraries/socialshareprivacy/jquery.socialshareprivacy.js"></script>
+	  <script type="text/javascript" src="libraries/toggle_div.js"></script>
+	  <script type="text/javascript">
+	    jQuery(document).ready(function($){
+	      if($('#socialshareprivacy').length > 0){
+	        $('#socialshareprivacy').socialSharePrivacy(); 
+	      }
+	    });
+	  </script>
+	  <!-- Piwik -->
+		<script type="text/javascript">
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://kjc-sv006.kjc.uni-heidelberg.de/piwik/" :
+			"http://kjc-sv006.kjc.uni-heidelberg.de/piwik/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try 
+		{
+			var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+			piwikTracker.setDocumentTitle('Texts');
+			piwikTracker.trackPageView();
+			piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+		</script><noscript><p><img src="http://kjc-sv006.kjc.uni-heidelberg.de/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+		<!-- End Piwik Tracking Code -->
+	<link rel="stylesheet" type="text/css" href="libraries/socialshareprivacy/socialshareprivacy/socialshareprivacy.css"/>
+</head>
+<body>
+
+
+<div id="container">
+	<div id="header">
+		<a href="index.php"><img src="img/TabBg.gif" width="170px" height="70px" border="0"></a>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="index.php?contents=abfrage">Query</a></li>
+			<li><a href="index.php?contents=dictionary">Dictionary</a></li>
+			<li><a href="index.php?contents=texte">Texts</a></li>
+			<li><a href="index.php?contents=corpus">Corpus</a></li>
+			<li><a href="index.php?contents=functions">Functions</a></li>
+			<li><a href="index.php?contents=help_center">Help</a></li>
+		</ul>
+	</div><!-- navigation -->
+	<div id="subnavigation">
+	&nbsp;	
+<img style="vertical-align:middle" src="img/devanagari_off.gif">&nbsp;<a href="index.php?contents=help_center">Devanagari</a>&nbsp;	</div><!--  subnavigation -->
+	<div id="content">
+	
+
+
+
+<h1>Texts</h1>
+<p class="small"><a href="index.php?contents=help_text">Help</a></p>
+<form action="index.php?contents=texte" method="post">
+<table>
+<tr><td><strong>Available texts:</strong></td>
+<td><select size="1" name="textid" onchange="this.form.submit()">
+
+Notice: Undefined index:  PhraseID in /srv/www/htdocs/dcs/texte.php on line 35
+
+Notice: Undefined index:  IDTextDisplay in /srv/www/htdocs/dcs/texte.php on line 56
+	<option value="15">Abhidharmako&#347;a</option>
+	<option value="16">Abhidharmako&#347;abh&#257;&#7779;ya</option>
+	<option value="17">Acintyastava</option>
+	<option value="18">Agast&#299;yaratnapar&#299;k&#7779;&#257;</option>
+	<option value="19">Agnipur&#257;&#7751;a</option>
+	<option value="20">Aitareyopani&#7779;ad</option>
+	<option value="21">Amarako&#347;a</option>
+	<option value="22">Amaraugha&#347;&#257;sana</option>
+	<option value="23">Amaru&#347;ataka</option>
+	<option value="24">Am&#7771;tabind&#363;pani&#7779;at</option>
+	<option value="26">Artha&#347;&#257;stra</option>
+	<option value="28">Ayurvedaras&#257;yana</option>
+	<option value="14">A&#7779;&#7789;avakrag&#299;ta</option>
+	<option value="13">A&#7779;&#7789;&#257;dhy&#257;y&#299;</option>
+	<option value="10">A&#7779;&#7789;&#257;&#7749;gah&#7771;dayasa&#7747;hit&#257;</option>
+	<option value="11">A&#7779;&#7789;&#257;&#7749;ganigha&#7751;&#7789;u</option>
+	<option value="12">A&#7779;&#7789;&#257;&#7749;gasa&#7747;graha</option>
+	<option value="25">&#256;nandakanda</option>
+	<option value="27">&#256;yurvedad&#299;pik&#257;</option>
+	<option value="29">Baudh&#257;yanadharmas&#363;tra</option>
+	<option value="30">Bhadrab&#257;hucarita</option>
+	<option value="32">Bhairavastava</option>
+	<option value="31">Bh&#257;gavatapur&#257;&#7751;a</option>
+	<option value="33">Bh&#257;vaprak&#257;&#347;a</option>
+	<option value="34">Bhramar&#257;&#7779;&#7789;aka</option>
+	<option value="35">B&#299;janigha&#7751;&#7789;u</option>
+	<option value="36">Bodhicary&#257;vat&#257;ra</option>
+	<option value="37">Brahmabind&#363;pani&#7779;at</option>
+	<option value="38">Buddhacarita</option>
+	<option value="39">B&#7771;hatkath&#257;&#347;lokasa&#7747;graha</option>
+	<option value="40">Cakra (?) on Su&#347;r</option>
+	<option value="41">Carakasa&#7747;hit&#257;</option>
+	<option value="42">Carakatattvaprad&#299;pik&#257;</option>
+	<option value="43">Ch&#257;ndogyopani&#7779;ad</option>
+	<option value="44">Comm. on the K&#257;vy&#257;la&#7747;k&#257;rav&#7771;tti</option>
+	<option value="45">Commentary on Amaraugha&#347;&#257;sana</option>
+	<option value="46">Commentary on the K&#257;dambar&#299;sv&#299;kara&#7751;as&#363;trama&#241;jar&#299;</option>
+	<option value="47">Da&#347;akum&#257;racarita</option>
+	<option value="48">Dhanurveda</option>
+	<option value="49">Dhanvantarinigha&#7751;&#7789;u</option>
+	<option value="50">Ek&#257;k&#7779;arako&#7779;a</option>
+	<option value="54">Garbhopani&#7779;at</option>
+	<option value="55" selected>Garu&#7693;apur&#257;&#7751;a</option>
+	<option value="56">Gautamadharmas&#363;tra</option>
+	<option value="52">Ga&#7751;ak&#257;rik&#257;</option>
+	<option value="53">Ga&#7751;ak&#257;rik&#257;&#7789;&#299;k&#257;</option>
+	<option value="57">Ghera&#7751;&#7693;asa&#7747;hit&#257;</option>
+	<option value="58">G&#299;tagovinda</option>
+	<option value="60">Gokar&#7751;apur&#257;&#7751;as&#257;ra&#7717;</option>
+	<option value="61">Gopathabr&#257;hma&#7751;a</option>
+	<option value="62">Gorak&#7779;a&#347;ataka</option>
+	<option value="59">Gø&#7693;h&#257;rthaprak&#257;&#347;aka</option>
+	<option value="51">G&#363;&#7693;h&#257;rthad&#299;pik&#257;</option>
+	<option value="64">G&#7771;hastharatn&#257;kara</option>
+	<option value="68">Haribhaktivil&#257;sa</option>
+	<option value="65">Ha&#7789;hayogaprad&#299;pik&#257;</option>
+	<option value="66">Ha&#7747;sad&#363;ta</option>
+	<option value="67">H&#257;r&#257;&#7751;acandara on Su&#347;r</option>
+	<option value="69">Hitopade&#347;a</option>
+	<option value="71">Indu (ad AHS)</option>
+	<option value="72">Janmamara&#7751;avic&#257;ra</option>
+	<option value="77">Kaiyadevanigha&#7751;&#7789;u</option>
+	<option value="83">Kaul&#257;val&#299;nir&#7751;aya</option>
+	<option value="81">Kau&#347;ikas&#363;tra</option>
+	<option value="82">Kau&#347;ikas&#363;trad&#257;rilabh&#257;&#7779;ya</option>
+	<option value="76">K&#257;dambar&#299;sv&#299;kara&#7751;as&#363;trama&#241;jar&#299;</option>
+	<option value="78">K&#257;lik&#257;pur&#257;&#7751;a</option>
+	<option value="79">K&#257;mas&#363;tra</option>
+	<option value="80">K&#257;ty&#257;yanasm&#7771;ti</option>
+	<option value="84">K&#257;vy&#257;dar&#347;a</option>
+	<option value="85">K&#257;vy&#257;la&#7747;k&#257;ra</option>
+	<option value="86">K&#257;vy&#257;la&#7747;k&#257;rav&#7771;tti</option>
+	<option value="75">K&#257;&#7789;hakag&#7771;hyas&#363;tra</option>
+	<option value="74">K&#257;&#347;ik&#257;v&#7771;tti</option>
+	<option value="87">Kir&#257;t&#257;rjun&#299;ya</option>
+	<option value="88">Kum&#257;rasa&#7747;bhava</option>
+	<option value="73">K&#363;rmapur&#257;&#7751;a</option>
+	<option value="90">K&#7771;&#7779;ipar&#257;&#347;ara</option>
+	<option value="89">K&#7771;&#7779;&#7751;&#257;m&#7771;tamah&#257;r&#7751;ava</option>
+	<option value="91">La&#7749;k&#257;vat&#257;ras&#363;tra</option>
+	<option value="92">Li&#7749;gapur&#257;&#7751;a</option>
+	<option value="95">Madanap&#257;lanigha&#7751;&#7789;u</option>
+	<option value="96">Mah&#257;bh&#257;rata</option>
+	<option value="97">Mah&#257;c&#299;natantra</option>
+	<option value="98">Manusm&#7771;ti</option>
+	<option value="99">Matsyapur&#257;&#7751;a</option>
+	<option value="94">Ma&#7751;im&#257;h&#257;tmya</option>
+	<option value="100">M&#257;t&#7771;k&#257;bhedatantra</option>
+	<option value="101">Meghad&#363;ta</option>
+	<option value="102">Mugdh&#257;vabodhin&#299;</option>
+	<option value="93">M&#363;lamadhyamak&#257;rik&#257;&#7717;</option>
+	<option value="104">M&#7771;gendratantra</option>
+	<option value="103">M&#7771;gendra&#7789;&#299;k&#257;</option>
+	<option value="109">N&#257;dabind&#363;pani&#7779;at</option>
+	<option value="110">N&#257;radasm&#7771;ti</option>
+	<option value="105">N&#257;&#7789;ya&#347;&#257;stra</option>
+	<option value="106">N&#257;&#7789;ya&#347;&#257;straviv&#7771;ti</option>
+	<option value="107">N&#257;&#7693;&#299;par&#299;k&#7779;&#257;</option>
+	<option value="108">N&#257;&#7693;&#299;vij&#241;&#257;na</option>
+	<option value="111">Nibandhasa&#7747;graha</option>
+	<option value="112">Nigha&#7751;&#7789;u&#347;e&#7779;a</option>
+	<option value="113">Nirukta</option>
+	<option value="114">Ny&#257;yabh&#257;&#7779;ya</option>
+	<option value="115">Ny&#257;yabindu</option>
+	<option value="116">Ny&#257;yacandrik&#257;pa&#7751;jik&#257;</option>
+	<option value="117">Ny&#257;yas&#363;tra</option>
+	<option value="119">Pad&#257;rthacandrik&#257;</option>
+	<option value="120">Pa&#241;c&#257;rthabh&#257;&#7779;ya</option>
+	<option value="123">Param&#257;nand&#299;yan&#257;mam&#257;l&#257;</option>
+	<option value="121">Par&#257;&#347;aradharmasa&#7747;hit&#257;</option>
+	<option value="122">Par&#257;&#347;arasm&#7771;ti&#7789;&#299;k&#257;</option>
+	<option value="118">P&#257;&#347;upatas&#363;tra</option>
+	<option value="124">Prasannapad&#257;</option>
+	<option value="130">Rasah&#7771;dayatantra</option>
+	<option value="131">Rasak&#257;madhenu</option>
+	<option value="132">Rasama&#241;jar&#299;</option>
+	<option value="133">Rasaprak&#257;&#347;asudh&#257;kara</option>
+	<option value="137">Rasaratnasamuccaya</option>
+	<option value="139">Rasaratnasamuccayabodhin&#299;</option>
+	<option value="140">Rasaratnasamuccayad&#299;pik&#257;</option>
+	<option value="138">Rasaratnasamuccaya&#7789;&#299;k&#257;</option>
+	<option value="136">Rasaratn&#257;kara</option>
+	<option value="141">Rasasa&#7747;ketakalik&#257;</option>
+	<option value="142">Rasatara&#7749;gi&#7751;&#299;</option>
+	<option value="128">Ras&#257;dhy&#257;ya</option>
+	<option value="129">Ras&#257;dhy&#257;ya&#7789;&#299;k&#257;</option>
+	<option value="134">Ras&#257;r&#7751;ava</option>
+	<option value="135">Ras&#257;r&#7751;avakalpa</option>
+	<option value="144">Rasendracint&#257;ma&#7751;i</option>
+	<option value="143">Rasendrac&#363;&#7693;&#257;ma&#7751;i</option>
+	<option value="145">Rasendras&#257;rasa&#7747;graha</option>
+	<option value="146">Rasikapriy&#257;</option>
+	<option value="147">Rasikasa&#7747;j&#299;van&#299;</option>
+	<option value="148">Ratnad&#299;pik&#257;</option>
+	<option value="125">R&#257;jam&#257;rta&#7751;&#7693;a</option>
+	<option value="126">R&#257;janigha&#7751;&#7789;u</option>
+	<option value="127">R&#257;m&#257;ya&#7751;a</option>
+	<option value="157">Sarvadar&#347;anasa&#7747;graha</option>
+	<option value="156">Sarv&#257;&#7749;gasundar&#257;</option>
+	<option value="152">Sa&#7749;ghabhedavastu</option>
+	<option value="158">S&#257;tvatatantra</option>
+	<option value="153">S&#257;&#7747;khyak&#257;rik&#257;</option>
+	<option value="154">S&#257;&#7747;khyak&#257;rik&#257;bh&#257;&#7779;ya</option>
+	<option value="155">S&#257;&#7747;khyatattvakaumud&#299;</option>
+	<option value="159">Skandapur&#257;&#7751;a</option>
+	<option value="160">Skandapur&#257;&#7751;a (Rev&#257;kha&#7751;&#7693;a)</option>
+	<option value="161">Smarad&#299;pik&#257;</option>
+	<option value="162">Spandak&#257;rik&#257;</option>
+	<option value="163">Spandak&#257;rik&#257;nir&#7751;aya</option>
+	<option value="164">Sphu&#7789;&#257;rth&#257;vy&#257;khy&#257;</option>
+	<option value="165">Su&#347;rutasa&#7747;hit&#257;</option>
+	<option value="151">S&#363;ryasiddh&#257;nta</option>
+	<option value="149">S&#363;rya&#347;ataka</option>
+	<option value="150">S&#363;rya&#347;ataka&#7789;&#299;k&#257;</option>
+	<option value="168">Tantrasa&#7747;graha</option>
+	<option value="169">Tantras&#257;ra</option>
+	<option value="166">Tantr&#257;khy&#257;yik&#257;</option>
+	<option value="167">Tantr&#257;loka</option>
+	<option value="170">Tarkasa&#7747;graha</option>
+	<option value="171">Tattvavai&#347;&#257;rad&#299;</option>
+	<option value="172">To&#7693;alatantra</option>
+	<option value="173">Trik&#257;&#7751;&#7693;a&#347;e&#7779;a</option>
+	<option value="174">Tri&#7747;&#347;atik&#257;v&#7771;tti</option>
+	<option value="176">U&#7693;&#7693;&#257;mare&#347;varatantra</option>
+	<option value="177">Vai&#347;e&#7779;ikas&#363;tra</option>
+	<option value="178">Vai&#347;e&#7779;ikas&#363;trav&#7771;tti</option>
+	<option value="179">Var&#257;hapur&#257;&#7751;a</option>
+	<option value="180">V&#257;t&#363;lan&#257;thas&#363;tras</option>
+	<option value="181">V&#257;t&#363;lan&#257;thas&#363;trav&#7771;tti</option>
+	<option value="182">Vet&#257;lapa&#241;cavi&#7747;&#347;atik&#257;</option>
+	<option value="183">Vi&#7779;&#7751;upur&#257;&#7751;a</option>
+	<option value="184">Vi&#7779;&#7751;usm&#7771;ti</option>
+	<option value="185">Vi&#7747;&#347;atik&#257;k&#257;rik&#257;</option>
+	<option value="186">V&#7771;ddhayamasm&#7771;ti</option>
+	<option value="187">Y&#257;j&#241;avalkyasm&#7771;ti</option>
+	<option value="188">Yogaratn&#257;kara</option>
+	<option value="189">Yogas&#363;tra</option>
+	<option value="190">Yogas&#363;trabh&#257;&#7779;ya</option>
+	<option value="63">&#7770;gvedaved&#257;&#7749;gajyoti&#7779;a</option>
+	<option value="175">&#7770;tusa&#7747;h&#257;ra</option>
+	<option value="70">&#7788;ikanikay&#257;tr&#257;</option>
+	<option value="4">&#346;atapathabr&#257;hma&#7751;a</option>
+	<option value="1">&#346;&#257;ktavij&#241;&#257;na</option>
+	<option value="2">&#346;&#257;r&#7749;gadharasa&#7747;hit&#257;</option>
+	<option value="3">&#346;&#257;r&#7749;gadharasa&#7747;hit&#257;d&#299;pik&#257;</option>
+	<option value="5">&#346;ira'upani&#7779;ad</option>
+	<option value="6">&#346;ivapur&#257;&#7751;a</option>
+	<option value="7">&#346;ivas&#363;tra</option>
+	<option value="8">&#346;ivas&#363;trav&#257;rtika</option>
+	<option value="9">&#346;vet&#257;&#347;vataropani&#7779;ad</option>
+</select></td></tr>
+<tr><td></td><td><span style="font-size:small">
+			<a href="index.php?contents=textdetails&IDText=55">Bibliography</a></span></td></tr><tr><td><strong>Chapters:</strong></td>
+<td><select size="1" name="chapterid" onchange="this.form.submit()">
+	<option value="7041">GarPur, 1, 1</option>
+	<option value="7042">GarPur, 1, 2</option>
+	<option value="7043">GarPur, 1, 3</option>
+	<option value="7044">GarPur, 1, 4</option>
+	<option value="7046">GarPur, 1, 5</option>
+	<option value="7048">GarPur, 1, 6</option>
+	<option value="7050">GarPur, 1, 7</option>
+	<option value="7052">GarPur, 1, 8</option>
+	<option value="7055">GarPur, 1, 9</option>
+	<option value="7056">GarPur, 1, 10</option>
+	<option value="7057">GarPur, 1, 11</option>
+	<option value="7058">GarPur, 1, 12</option>
+	<option value="7059">GarPur, 1, 13</option>
+	<option value="7060">GarPur, 1, 14</option>
+	<option value="7061">GarPur, 1, 15</option>
+	<option value="7067">GarPur, 1, 16</option>
+	<option value="7069">GarPur, 1, 17</option>
+	<option value="7070">GarPur, 1, 18</option>
+	<option value="7072">GarPur, 1, 19</option>
+	<option value="7073">GarPur, 1, 20</option>
+	<option value="7075">GarPur, 1, 21</option>
+	<option value="7076">GarPur, 1, 22</option>
+	<option value="7078">GarPur, 1, 23</option>
+	<option value="7080">GarPur, 1, 24</option>
+	<option value="7084">GarPur, 1, 25</option>
+	<option value="7085">GarPur, 1, 26</option>
+	<option value="7088">GarPur, 1, 27</option>
+	<option value="7089">GarPur, 1, 28</option>
+	<option value="7093">GarPur, 1, 29</option>
+	<option value="7094">GarPur, 1, 30</option>
+	<option value="7096">GarPur, 1, 31</option>
+	<option value="7098">GarPur, 1, 32</option>
+	<option value="7100">GarPur, 1, 33</option>
+	<option value="7102">GarPur, 1, 34</option>
+	<option value="7105">GarPur, 1, 35</option>
+	<option value="7107">GarPur, 1, 36</option>
+	<option value="7108">GarPur, 1, 37</option>
+	<option value="7114">GarPur, 1, 38</option>
+	<option value="7115">GarPur, 1, 39</option>
+	<option value="7116">GarPur, 1, 40</option>
+	<option value="7121">GarPur, 1, 41</option>
+	<option value="7122">GarPur, 1, 42</option>
+	<option value="7130">GarPur, 1, 43</option>
+	<option value="7131">GarPur, 1, 44</option>
+	<option value="7136">GarPur, 1, 45</option>
+	<option value="7143">GarPur, 1, 46</option>
+	<option value="7154">GarPur, 1, 47</option>
+	<option value="7164">GarPur, 1, 48</option>
+	<option value="7165">GarPur, 1, 49</option>
+	<option value="7167">GarPur, 1, 50</option>
+	<option value="7168">GarPur, 1, 51</option>
+	<option value="7169">GarPur, 1, 52</option>
+	<option value="7171">GarPur, 1, 53</option>
+	<option value="7173">GarPur, 1, 54</option>
+	<option value="7174">GarPur, 1, 55</option>
+	<option value="7175">GarPur, 1, 56</option>
+	<option value="7176">GarPur, 1, 57</option>
+	<option value="7177">GarPur, 1, 58</option>
+	<option value="7178">GarPur, 1, 59</option>
+	<option value="7180">GarPur, 1, 60</option>
+	<option value="7181">GarPur, 1, 61</option>
+	<option value="7183">GarPur, 1, 63</option>
+	<option value="7185">GarPur, 1, 64</option>
+	<option value="7186">GarPur, 1, 65</option>
+	<option value="7187">GarPur, 1, 66</option>
+	<option value="7188">GarPur, 1, 67</option>
+	<option value="7190">GarPur, 1, 68</option>
+	<option value="7191">GarPur, 1, 69</option>
+	<option value="7193">GarPur, 1, 70</option>
+	<option value="7194">GarPur, 1, 71</option>
+	<option value="7195">GarPur, 1, 72</option>
+	<option value="7196">GarPur, 1, 73</option>
+	<option value="7197">GarPur, 1, 74</option>
+	<option value="7198">GarPur, 1, 75</option>
+	<option value="7199">GarPur, 1, 76</option>
+	<option value="7200">GarPur, 1, 77</option>
+	<option value="7201">GarPur, 1, 78</option>
+	<option value="7202">GarPur, 1, 79</option>
+	<option value="7203">GarPur, 1, 80</option>
+	<option value="7204">GarPur, 1, 81</option>
+	<option value="7205">GarPur, 1, 82</option>
+	<option value="7206" selected>GarPur, 1, 83</option>
+	<option value="7207">GarPur, 1, 84</option>
+	<option value="7208">GarPur, 1, 85</option>
+	<option value="7210">GarPur, 1, 86</option>
+	<option value="7211">GarPur, 1, 87</option>
+	<option value="7213">GarPur, 1, 88</option>
+	<option value="7219">GarPur, 1, 89</option>
+	<option value="7220">GarPur, 1, 91</option>
+	<option value="7221">GarPur, 1, 92</option>
+	<option value="7222">GarPur, 1, 93</option>
+	<option value="7224">GarPur, 1, 94</option>
+	<option value="7225">GarPur, 1, 95</option>
+	<option value="7226">GarPur, 1, 96</option>
+	<option value="7227">GarPur, 1, 97</option>
+	<option value="7228">GarPur, 1, 98</option>
+	<option value="7229">GarPur, 1, 99</option>
+	<option value="7230">GarPur, 1, 100</option>
+	<option value="7231">GarPur, 1, 101</option>
+	<option value="7232">GarPur, 1, 102</option>
+	<option value="7233">GarPur, 1, 103</option>
+	<option value="7234">GarPur, 1, 104</option>
+	<option value="7235">GarPur, 1, 105</option>
+	<option value="7236">GarPur, 1, 106</option>
+	<option value="7237">GarPur, 1, 107</option>
+	<option value="7238">GarPur, 1, 108</option>
+	<option value="7239">GarPur, 1, 109</option>
+	<option value="7240">GarPur, 1, 110</option>
+	<option value="7241">GarPur, 1, 111</option>
+	<option value="7242">GarPur, 1, 112</option>
+	<option value="7243">GarPur, 1, 113</option>
+	<option value="7244">GarPur, 1, 114</option>
+	<option value="7245">GarPur, 1, 115</option>
+	<option value="7246">GarPur, 1, 116</option>
+	<option value="7247">GarPur, 1, 117</option>
+	<option value="7248">GarPur, 1, 118</option>
+	<option value="7249">GarPur, 1, 119</option>
+	<option value="7250">GarPur, 1, 120</option>
+	<option value="7251">GarPur, 1, 121</option>
+	<option value="7252">GarPur, 1, 122</option>
+	<option value="7253">GarPur, 1, 123</option>
+	<option value="7254">GarPur, 1, 124</option>
+	<option value="7255">GarPur, 1, 125</option>
+	<option value="7256">GarPur, 1, 127</option>
+	<option value="7257">GarPur, 1, 128</option>
+	<option value="7258">GarPur, 1, 129</option>
+	<option value="7259">GarPur, 1, 130</option>
+	<option value="7260">GarPur, 1, 131</option>
+	<option value="7261">GarPur, 1, 132</option>
+	<option value="7262">GarPur, 1, 133</option>
+	<option value="7263">GarPur, 1, 134</option>
+	<option value="7264">GarPur, 1, 135</option>
+	<option value="7265">GarPur, 1, 136</option>
+	<option value="7266">GarPur, 1, 137</option>
+	<option value="7267">GarPur, 1, 138</option>
+	<option value="7268">GarPur, 1, 139</option>
+	<option value="7269">GarPur, 1, 140</option>
+	<option value="7270">GarPur, 1, 141</option>
+	<option value="7271">GarPur, 1, 142</option>
+	<option value="7272">GarPur, 1, 143</option>
+	<option value="7273">GarPur, 1, 144</option>
+	<option value="7274">GarPur, 1, 145</option>
+	<option value="7275">GarPur, 1, 146</option>
+	<option value="7276">GarPur, 1, 147</option>
+	<option value="7277">GarPur, 1, 148</option>
+	<option value="7278">GarPur, 1, 149</option>
+	<option value="7279">GarPur, 1, 150</option>
+	<option value="7280">GarPur, 1, 151</option>
+	<option value="7281">GarPur, 1, 152</option>
+	<option value="7282">GarPur, 1, 153</option>
+	<option value="7283">GarPur, 1, 154</option>
+	<option value="7284">GarPur, 1, 155</option>
+	<option value="7285">GarPur, 1, 156</option>
+	<option value="7286">GarPur, 1, 157</option>
+	<option value="7287">GarPur, 1, 158</option>
+	<option value="7288">GarPur, 1, 159</option>
+	<option value="7289">GarPur, 1, 160</option>
+	<option value="7290">GarPur, 1, 161</option>
+	<option value="7291">GarPur, 1, 162</option>
+	<option value="7292">GarPur, 1, 163</option>
+	<option value="7293">GarPur, 1, 164</option>
+	<option value="7294">GarPur, 1, 165</option>
+	<option value="7295">GarPur, 1, 166</option>
+	<option value="7296">GarPur, 1, 167</option>
+	<option value="7297">GarPur, 1, 168</option>
+	<option value="7298">GarPur, 1, 169</option>
+</select></td></tr>
+<tr><td>&nbsp;</td><td><span style="font-size:0.8em">(no revisions)</span></td></tr>
+<tr><td>&nbsp;</td><td><span style="font-size:0.8em">Associated topic(s):<a href="index.php?contents=topics_references&IDTopic=86">T&#299;rthas</a></span></td></tr>
+<tr><td><strong>Analysis:</strong>:</td><td><select size="1" name="AnalysisType" onchange="this.form.submit()">
+1	<option value="0">no analysis</option>
+	<option value="1" selected>lexemes</option>
+</select></td><td></td></tr>
+<tr><td><strong>Show headlines</strong>:</td><td><input type="checkbox" name="ShowHeadlines" onchange="this.form.submit()" value="1"></td><td></td></tr>
+<tr><td><strong>Show parallels</strong>:</td><td><input type="checkbox" name="ShowParallels" onchange="this.form.submit()" value="1"></td><td></td></tr>
+</table>
+</form><table border="0" style="font-size:0.9em">
+	<tr><td width="90%">brahmov&#257;ca / (1.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=124726">vac</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424400"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424400">FN</a></td></tr>
+	<tr><td width="90%">k&#299;ka&#7789;e&#7779;u gay&#257; pu&#7751;y&#257; pu&#7751;ya&#7747; r&#257;jag&#7771;ha&#7747; vanam / (1.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=38703">k&#299;ka&#7789;a</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=119082">r&#257;jag&#7771;ha</a>  <a href="index.php?contents=einzelwort&IDWord=125423">vana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424401"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424401">FN</a></td></tr>
+	<tr><td width="90%">vi&#7779;aya&#347;c&#257;ra&#7751;a&#7717; pu&#7751;yo nad&#299;n&#257;&#7747; ca puna&#7717; pun&#257; // (1.3)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=134617">vi&#7779;aya</a>-<a href="index.php?contents=einzelwort&IDWord=53130">c&#257;ra&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=72696">nad&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=87100">punar</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424402"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424402">FN</a></td></tr>
+	<tr><td width="90%">mu&#7751;&#7693;ap&#7771;&#7779;&#7789;ha&#7747; tu p&#363;rvasminpa&#347;cime dak&#7779;i&#7751;ottare / (2.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=111792">mu&#7751;&#7693;ap&#7771;&#7779;&#7789;ha</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=96506">p&#363;rva</a>-<a href="index.php?contents=einzelwort&IDWord=83877">pa&#347;cima</a>  <a href="index.php?contents=einzelwort&IDWord=63450">dak&#7779;i&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=25969">uttara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424403"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424403">FN</a></td></tr>
+	<tr><td width="90%">s&#257;rdhakro&#347;advaya&#7747; m&#257;na&#7747; gay&#257;y&#257;&#7747; parik&#299;rtitam // (2.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=149328">sa</a>-<a href="index.php?contents=einzelwort&IDWord=14692">ardha</a>-<a href="index.php?contents=einzelwort&IDWord=43581">kro&#347;a</a>-<a href="index.php?contents=einzelwort&IDWord=69467">dvaya</a>  <a href="index.php?contents=einzelwort&IDWord=109899">m&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=81467">parik&#299;rtay</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424404"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424404">FN</a></td></tr>
+	<tr><td width="90%">pa&#241;cakro&#347;a&#7747; gay&#257;k&#7779;etra&#7747; kro&#347;ameka&#7747; gay&#257;&#347;ira&#7717; / (3.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=79459">pa&#241;cakro&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=44898">k&#7779;etra</a>  <a href="index.php?contents=einzelwort&IDWord=43581">kro&#347;a</a>-<a href="index.php?contents=einzelwort&IDWord=30836">eka</a>  <a href="index.php?contents=einzelwort&IDWord=47159">gay&#257;&#347;iras</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424405"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424405">FN</a></td></tr>
+	<tr><td width="90%">tatra pi&#7751;&#7693;aprad&#257;nena t&#7771;ptirbhavati &#347;&#257;&#347;vat&#299; // (3.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=92549">prad&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=61686">t&#7771;pti</a>-<a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a>  <a href="index.php?contents=einzelwort&IDWord=143381">&#347;&#257;&#347;vata</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424406"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424406">FN</a></td></tr>
+	<tr><td width="90%">nag&#257;jjan&#257;rdan&#257;ccaiva k&#363;p&#257;ccottaram&#257;nas&#257;t / (4.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=72499">naga</a>-<a href="index.php?contents=einzelwort&IDWord=55506">jan&#257;rdana</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=43055">k&#363;pa</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=26038">uttaram&#257;nasa</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424407"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424407">FN</a></td></tr>
+	<tr><td width="90%">etadgay&#257;&#347;ira&#7717; prokta&#7747; phalgut&#299;rtha&#7747; taducyate // (4.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=31380">etad</a>-<a href="index.php?contents=einzelwort&IDWord=47159">gay&#257;&#347;iras</a>  <a href="index.php?contents=einzelwort&IDWord=93645">pravac</a>  <a href="index.php?contents=einzelwort&IDWord=97197">phalgut&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=58785">tad</a>-<a href="index.php?contents=einzelwort&IDWord=124726">vac</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424408"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424408">FN</a></td></tr>
+	<tr><td width="90%">tatra pi&#7751;&#7693;aprad&#257;nena pit&#7773;&#7751;&#257;&#7747; param&#257; gati&#7717; / (5.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=92549">prad&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=81016">parama</a>  <a href="index.php?contents=einzelwort&IDWord=46685">gati</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424409"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424409">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;gamanam&#257;tre&#7751;a pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet // (5.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=47103">gamana</a>-<a href="index.php?contents=einzelwort&IDWord=109681">m&#257;tra</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424410"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424410">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;y&#257;&#7747; pit&#7771;r&#363;pe&#7751;a devadevo jan&#257;rdana&#7717; / (6.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=121785">r&#363;pa</a>  <a href="index.php?contents=einzelwort&IDWord=67780">devadeva</a>  <a href="index.php?contents=einzelwort&IDWord=55506">jan&#257;rdana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424411"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424411">FN</a></td></tr>
+	<tr><td width="90%">ta&#7747; d&#7771;&#7779;&#7789;v&#257; pu&#7751;&#7693;ar&#299;k&#257;k&#7779;a&#7747; mucyate vai &#7771;&#7751;atray&#257;t // (6.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=86908">pu&#7751;&#7693;ar&#299;k&#257;k&#7779;a</a>  <a href="index.php?contents=einzelwort&IDWord=111709">muc</a>  <a href="index.php?contents=einzelwort&IDWord=137430">vai</a>  <a href="index.php?contents=einzelwort&IDWord=30507">&#7771;&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=62220">traya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424412"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424412">FN</a></td></tr>
+	<tr><td width="90%">ratham&#257;rga&#7747; gayat&#299;rthe d&#7771;&#7779;&#7789;v&#257; rudrapad&#257;dike / (7.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=117992">ratha</a>-<a href="index.php?contents=einzelwort&IDWord=110344">m&#257;rga</a>  <a href="index.php?contents=einzelwort&IDWord=47145">gaya</a>-<a href="index.php?contents=einzelwort&IDWord=61021">t&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=120575">rudrapada</a>-<a href="index.php?contents=einzelwort&IDWord=21094">&#257;dika</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424413"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424413">FN</a></td></tr>
+	<tr><td width="90%">k&#257;le&#347;vara&#7747; ca ked&#257;ra&#7747; pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet // (7.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=37973">k&#257;le&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=41667">ked&#257;ra</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424414"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424414">FN</a></td></tr>
+	<tr><td width="90%">d&#7771;&#7779;&#7789;v&#257; pit&#257;maha&#7747; deva&#7747; sarvap&#257;pai&#7717; pramucyate / (8.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=86087">pit&#257;maha</a>  <a href="index.php?contents=einzelwort&IDWord=67630">deva</a>  <a href="index.php?contents=einzelwort&IDWord=154364">sarva</a>-<a href="index.php?contents=einzelwort&IDWord=84806">p&#257;pa</a>  <a href="index.php?contents=einzelwort&IDWord=93297">pramuc</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424415"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424415">FN</a></td></tr>
+	<tr><td width="90%">loka&#7747; tvan&#257;maya&#7747; y&#257;ti d&#7771;&#7779;&#7789;v&#257; ca prapit&#257;maham // (8.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>-<a href="index.php?contents=einzelwort&IDWord=5447">an&#257;maya</a>  <a href="index.php?contents=einzelwort&IDWord=115725">y&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=92850">prapit&#257;maha</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424416"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424416">FN</a></td></tr>
+	<tr><td width="90%">tath&#257; gad&#257;dhara&#7747; deva&#7747; m&#257;dhava&#7747; puru&#7779;ottamam / (9.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=46770">gad&#257;dhara</a>  <a href="index.php?contents=einzelwort&IDWord=67630">deva</a>  <a href="index.php?contents=einzelwort&IDWord=109779">m&#257;dhava</a>  <a href="index.php?contents=einzelwort&IDWord=87639">puru&#7779;ottama</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424417"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424417">FN</a></td></tr>
+	<tr><td width="90%">ta&#7747; pra&#7751;amya prayatnena na bh&#363;yo j&#257;yate nara&#7717; // (9.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=90230">pra&#7751;am</a>  <a href="index.php?contents=einzelwort&IDWord=93391">prayatna</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=104114">bh&#363;yas</a>  <a href="index.php?contents=einzelwort&IDWord=55418">jan</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424418"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424418">FN</a></td></tr>
+	<tr><td width="90%">maun&#257;ditya&#7747; mah&#257;tm&#257;na&#7747; kanak&#257;rka&#7747; vi&#347;e&#7779;ata&#7717; / (10.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=113661">mauna</a>-<a href="index.php?contents=einzelwort&IDWord=21112">&#257;ditya</a>  <a href="index.php?contents=einzelwort&IDWord=108141">mah&#257;tman</a>  <a href="index.php?contents=einzelwort&IDWord=33517">kanaka</a>-<a href="index.php?contents=einzelwort&IDWord=14361">arka</a>  <a href="index.php?contents=einzelwort&IDWord=134084">vi&#347;e&#7779;ata&#7717;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424419"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424419">FN</a></td></tr>
+	<tr><td width="90%">d&#7771;&#7779;&#7789;v&#257; maunena viprar&#7779;e pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet // (10.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=113661">mauna</a>  <a href="index.php?contents=einzelwort&IDWord=132555">vipra</a>-<a href="index.php?contents=einzelwort&IDWord=30731">&#7771;&#7779;i</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424420"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424420">FN</a></td></tr>
+	<tr><td width="90%">brahm&#257;&#7751;a&#7747; p&#363;jayitv&#257; ca brahmalokamav&#257;pnuy&#257;t / (11.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>  <a href="index.php?contents=einzelwort&IDWord=89300">p&#363;jay</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>-<a href="index.php?contents=einzelwort&IDWord=16555">av&#257;p</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424421"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424421">FN</a></td></tr>
+	<tr><td width="90%">g&#257;yattr&#299;&#7747; pr&#257;tarutth&#257;ya yastu pa&#347;yati m&#257;nava&#7717; // (11.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47899">g&#257;yatr&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=95194">pr&#257;tar</a>-<a href="index.php?contents=einzelwort&IDWord=26201">utth&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>-<a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=109964">m&#257;nava</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424422"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424422">FN</a></td></tr>
+	<tr><td width="90%">sandhy&#257;&#7747; k&#7771;tv&#257; prayatnena sarvavedaphala&#7747; labhet / (12.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=156947">sa&#7747;dhy&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=93391">prayatna</a>  <a href="index.php?contents=einzelwort&IDWord=154364">sarva</a>-<a href="index.php?contents=einzelwort&IDWord=136925">veda</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424423"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424423">FN</a></td></tr>
+	<tr><td width="90%">s&#257;vitr&#299;&#7747; caiva madhy&#257;hne d&#7771;&#7779;&#7789;v&#257; yaj&#241;aphala&#7747; labhet // (12.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=159784">s&#257;vitr&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=106271">madhy&#257;hna</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=114403">yaj&#241;a</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424424"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424424">FN</a></td></tr>
+	<tr><td width="90%">sarasvat&#299;&#7747; ca s&#257;y&#257;hne d&#7771;&#7779;&#7789;v&#257; d&#257;naphala&#7747; labhet / (13.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=154051">sarasvat&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=159348">s&#257;y&#257;hna</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=64769">d&#257;na</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424425"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424425">FN</a></td></tr>
+	<tr><td width="90%">nagastham&#299;&#347;vara&#7747; d&#7771;&#7779;&#7789;v&#257; pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet // (13.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=72499">naga</a>-<a href="index.php?contents=einzelwort&IDWord=166783">stha</a>-<a href="index.php?contents=einzelwort&IDWord=25135">&#299;&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424426"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424426">FN</a></td></tr>
+	<tr><td width="90%">dharm&#257;ra&#7751;ya&#7747; dharmam&#299;&#347;a&#7747; d&#7771;&#7779;&#7789;v&#257; sy&#257;d&#7771;&#7751;an&#257;&#347;anam / (14.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=70924">dharm&#257;ra&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=70648">dharma</a>-<a href="index.php?contents=einzelwort&IDWord=25100">&#299;&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=18305">as</a>-<a href="index.php?contents=einzelwort&IDWord=30507">&#7771;&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=74676">n&#257;&#347;ana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424427"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424427">FN</a></td></tr>
+	<tr><td width="90%">deva&#7747; g&#7771;dhre&#347;vara&#7747; d&#7771;&#7779;&#7789;v&#257; ko na mucyeta bandhan&#257;t // (14.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=67630">deva</a>  <a href="index.php?contents=einzelwort&IDWord=48876">g&#7771;dhre&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=32423">ka</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=111709">muc</a>  <a href="index.php?contents=einzelwort&IDWord=97629">bandhana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424428"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424428">FN</a></td></tr>
+	<tr><td width="90%">dhenu&#7747; d&#7771;&#7779;&#7789;v&#257; dhenuvane brahmaloka&#7747; nayetpit&#7773;n / (15.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=71672">dhenu</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=71672">dhenu</a>-<a href="index.php?contents=einzelwort&IDWord=125423">vana</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424429"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424429">FN</a></td></tr>
+	<tr><td width="90%">prabh&#257;se&#347;a&#7747; prabh&#257;se ca d&#7771;&#7779;&#7789;v&#257; y&#257;ti par&#257;&#7747; gatim // (15.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=93060">prabh&#257;se&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=93055">prabh&#257;sa</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=115725">y&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=80915">para</a>  <a href="index.php?contents=einzelwort&IDWord=46685">gati</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424430"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424430">FN</a></td></tr>
+	<tr><td width="90%">ko&#7789;&#299;&#347;vara&#7747; c&#257;&#347;vamedha&#7747; d&#7771;&#7779;&#7789;v&#257; sy&#257;d&#7771;&#7751;an&#257;&#347;anam / (16.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=42199">ko&#7789;&#299;&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=17988">a&#347;vamedha</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=18305">as</a>-<a href="index.php?contents=einzelwort&IDWord=30507">&#7771;&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=74676">n&#257;&#347;ana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424431"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424431">FN</a></td></tr>
+	<tr><td width="90%">svargadv&#257;re&#347;vara&#7747; d&#7771;&#7779;&#7789;v&#257; mucyate bhavabandhan&#257;t // (16.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=169275">svargadv&#257;ra</a>-<a href="index.php?contents=einzelwort&IDWord=25137">&#299;&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=111709">muc</a>  <a href="index.php?contents=einzelwort&IDWord=101517">bhava</a>-<a href="index.php?contents=einzelwort&IDWord=97629">bandhana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424432"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424432">FN</a></td></tr>
+	<tr><td width="90%">r&#257;me&#347;vara&#7747; gay&#257;lola&#7747; d&#7771;&#7779;&#7789;v&#257; svargamav&#257;pnuy&#257;t / (17.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=119978">r&#257;me&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=47156">gay&#257;lola</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=169262">svarga</a>-<a href="index.php?contents=einzelwort&IDWord=16555">av&#257;p</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424433"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424433">FN</a></td></tr>
+	<tr><td width="90%">brahme&#347;vara&#7747; tath&#257; d&#7771;&#7779;&#7789;v&#257; mucyate brahmahatyay&#257; // (17.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100549">brahme&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=111709">muc</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=170245">haty&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424434"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424434">FN</a></td></tr>
+	<tr><td width="90%">mu&#7751;&#7693;ap&#7771;&#7779;&#7789;he mah&#257;ca&#7751;&#7693;&#299;&#7747; d&#7771;&#7779;&#7789;v&#257; k&#257;m&#257;nav&#257;pnuy&#257;t / (18.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=111792">mu&#7751;&#7693;ap&#7771;&#7779;&#7789;ha</a>  <a href="index.php?contents=einzelwort&IDWord=108052">mah&#257;ca&#7751;&#7693;&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=36860">k&#257;ma</a>-<a href="index.php?contents=einzelwort&IDWord=16555">av&#257;p</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424435"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424435">FN</a></td></tr>
+	<tr><td width="90%">phalgv&#299;&#347;a&#7747; phalguca&#7751;&#7693;&#299;&#7747; ca gaur&#299;&#7747; d&#7771;&#7779;&#7789;v&#257; ca ma&#7749;gal&#257;m // (18.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=97219">phalgv&#299;&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=97196">phalguca&#7751;&#7693;&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=49857">gaur&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=104712">ma&#7749;gala</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424436"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424436">FN</a></td></tr>
+	<tr><td width="90%">gomaka&#7747; gopati&#7747; deva&#7747; pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet / (19.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=49475">gomaka</a>  <a href="index.php?contents=einzelwort&IDWord=49331">gopati</a>  <a href="index.php?contents=einzelwort&IDWord=67630">deva</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424437"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424437">FN</a></td></tr>
+	<tr><td width="90%">a&#7749;g&#257;re&#347;a&#7747; ca siddhe&#347;a&#7747; gay&#257;ditya&#7747; gaja&#7747; tath&#257; // (19.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=1375">a&#7749;g&#257;re&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=160641">siddhe&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=47154">gay&#257;ditya</a>  <a href="index.php?contents=einzelwort&IDWord=46333">gaja</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424438"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424438">FN</a></td></tr>
+	<tr><td width="90%">m&#257;rka&#7751;&#7693;eye&#347;vara&#7747; d&#7771;&#7779;&#7789;v&#257; pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet / (20.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=110336">m&#257;rka&#7751;&#7693;eye&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424439"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424439">FN</a></td></tr>
+	<tr><td width="90%">phalgut&#299;rthe nara&#7717; sn&#257;tv&#257; d&#7771;&#7779;&#7789;v&#257; deva&#7747; gad&#257;dharam // (20.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=97197">phalgut&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=67630">deva</a>  <a href="index.php?contents=einzelwort&IDWord=46770">gad&#257;dhara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424440"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424440">FN</a></td></tr>
+	<tr><td width="90%">etena ki&#7747; na pary&#257;pta&#7747; n&#7773;&#7751;&#257;&#7747; suk&#7771;tak&#257;ri&#7751;&#257;m / (21.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=31380">etad</a>  <a href="index.php?contents=einzelwort&IDWord=32423">ka</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=83271">pary&#257;p</a>  <a href="index.php?contents=einzelwort&IDWord=72286">n&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=161242">suk&#7771;ta</a>-<a href="index.php?contents=einzelwort&IDWord=37212">k&#257;rin</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424441"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424441">FN</a></td></tr>
+	<tr><td width="90%">brahmaloka&#7747; pray&#257;nt&#299;ha puru&#7779;&#257; ekavi&#7747;&#347;ati&#7717; // (21.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=93401">pray&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=24973">iha</a>  <a href="index.php?contents=einzelwort&IDWord=87567">puru&#7779;a</a>  <a href="index.php?contents=einzelwort&IDWord=31067">ekavi&#7747;&#347;ati</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424442"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424442">FN</a></td></tr>
+	<tr><td width="90%">p&#7771;thivy&#257;&#7747; y&#257;ni t&#299;rth&#257;ni ye samudr&#257;&#7717; sar&#257;&#7747;si ca / (22.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=88355">p&#7771;thiv&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=61021">t&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=152797">samudra</a>  <a href="index.php?contents=einzelwort&IDWord=153932">saras</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424443"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424443">FN</a></td></tr>
+	<tr><td width="90%">phalgut&#299;rtha&#7747; gami&#7779;yanti v&#257;rameka&#7747; dine dine // (22.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=97197">phalgut&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=47093">gam</a>  <a href="index.php?contents=einzelwort&IDWord=129281">v&#257;ra</a>-<a href="index.php?contents=einzelwort&IDWord=30836">eka</a>  <a href="index.php?contents=einzelwort&IDWord=65346">dina</a>  <a href="index.php?contents=einzelwort&IDWord=65346">dina</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424444"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424444">FN</a></td></tr>
+	<tr><td width="90%">p&#7771;thivy&#257;&#7747; ca gay&#257; pu&#7751;y&#257; gay&#257;y&#257;&#7747; ca gay&#257;&#347;ira&#7717; / (23.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=88355">p&#7771;thiv&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=47159">gay&#257;&#347;iras</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424445"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424445">FN</a></td></tr>
+	<tr><td width="90%">&#347;re&#7779;&#7789;ha&#7747; tath&#257; phalgut&#299;rtha&#7747; tanmukha&#7747; ca surasya hi // (23.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147904">&#347;re&#7779;&#7789;ha</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=97197">phalgut&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=58785">tad</a>-<a href="index.php?contents=einzelwort&IDWord=111492">mukha</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=162926">sura</a>  <a href="index.php?contents=einzelwort&IDWord=171790">hi</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424446"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424446">FN</a></td></tr>
+	<tr><td width="90%">ud&#299;ci kanak&#257;nadyo n&#257;bhit&#299;rtha&#7747; tu madhyata&#7717; / (24.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=26951">ud&#299;c&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=74324">n&#257;bhit&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=106150">madhyatas</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424447"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424447">FN</a></td></tr>
+	<tr><td width="90%">pu&#7751;ya&#7747; brahmasadast&#299;rtha&#7747; sn&#257;n&#257;tsy&#257;dbrahmalokadam // (24.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=100455">brahmasadas</a>-<a href="index.php?contents=einzelwort&IDWord=61021">t&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=167441">sn&#257;na</a>-<a href="index.php?contents=einzelwort&IDWord=18305">as</a>-<a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424448"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424448">FN</a></td></tr>
+	<tr><td width="90%">k&#363;pe pi&#7751;&#7693;&#257;dika&#7747; k&#7771;tv&#257; pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet / (25.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=43055">k&#363;pa</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=21094">&#257;dika</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424449"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424449">FN</a></td></tr>
+	<tr><td width="90%">tath&#257;k&#7779;ayava&#7789;e &#347;r&#257;ddh&#299; brahmaloka&#7747; nayetpit&#7773;n // (25.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=418">ak&#7779;ayava&#7789;a</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424450"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424450">FN</a></td></tr>
+	<tr><td width="90%">ha&#7747;sat&#299;rthe nara&#7717; sn&#257;tv&#257; sarvap&#257;pai&#7717; pramucyate / (26.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=171418">ha&#7747;sat&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=154364">sarva</a>-<a href="index.php?contents=einzelwort&IDWord=84806">p&#257;pa</a>  <a href="index.php?contents=einzelwort&IDWord=93297">pramuc</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424451"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424451">FN</a></td></tr>
+	<tr><td width="90%">ko&#7789;it&#299;rthe gay&#257;lole vaitara&#7751;y&#257;&#7747; ca gomake // (26.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=42167">ko&#7789;it&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=47156">gay&#257;lola</a>  <a href="index.php?contents=einzelwort&IDWord=137635">vaitara&#7751;&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=49475">gomaka</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424452"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424452">FN</a></td></tr>
+	<tr><td width="90%">brahmaloka&#7747; nayecchr&#257;ddh&#299; puru&#7779;&#257;nekavi&#7747;&#347;atim / (27.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=87567">puru&#7779;a</a>-<a href="index.php?contents=einzelwort&IDWord=31067">ekavi&#7747;&#347;ati</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424453"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424453">FN</a></td></tr>
+	<tr><td width="90%">brahmat&#299;rthe r&#257;mat&#299;rthe &#257;gneye somat&#299;rthake // (27.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100264">brahmat&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=119783">r&#257;mat&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=20347">&#257;gneya</a>  <a href="index.php?contents=einzelwort&IDWord=164873">somat&#299;rthaka</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424454"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424454">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddh&#299; r&#257;mahrade brahmaloka&#7747; pit&#7771;kula&#7747; nayet / (28.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=119911">r&#257;mahrada</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=40025">kula</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424455"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424455">FN</a></td></tr>
+	<tr><td width="90%">uttare m&#257;nase &#347;r&#257;ddh&#299; na bh&#363;yo j&#257;yate nara&#7717; // (28.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=25969">uttara</a>  <a href="index.php?contents=einzelwort&IDWord=109998">m&#257;nasa</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=104114">bh&#363;yas</a>  <a href="index.php?contents=einzelwort&IDWord=55418">jan</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424456"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424456">FN</a></td></tr>
+	<tr><td width="90%">dak&#7779;i&#7751;e m&#257;nase &#347;r&#257;ddh&#299; brahmaloka&#7747; pit&#7773;nnayet / (29.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=63450">dak&#7779;i&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=109998">m&#257;nasa</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424457"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424457">FN</a></td></tr>
+	<tr><td width="90%">svargadv&#257;re nara&#7717; &#347;r&#257;ddh&#299; brahmaloka&#7747; nayetpit&#7773;n / (29.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=169275">svargadv&#257;ra</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=147275">&#347;r&#257;ddha</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424458"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424458">FN</a></td></tr>
+	<tr><td width="90%">bh&#299;&#7779;matarpa&#7751;ak&#7771;ttasya k&#363;&#7789;e t&#257;rayate pit&#7773;n / (29.3)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=102839">bh&#299;&#7779;ma</a>-<a href="index.php?contents=einzelwort&IDWord=59574">tarpa&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=40767">k&#7771;t</a>  <a href="index.php?contents=einzelwort&IDWord=42976">k&#363;&#7789;a</a>  <a href="index.php?contents=einzelwort&IDWord=60184">t&#257;ray</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424459"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424459">FN</a></td></tr>
+	<tr><td width="90%">g&#7771;dhre&#347;vare tath&#257; &#347;r&#257;ddh&#299; pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet // (29.4)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=48876">g&#7771;dhre&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424460"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424460">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddh&#299; ca dhenuk&#257;ra&#7751;ye brahmaloka&#7747; pit&#7773;nnayet / (30.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=71687">dhenuk&#257;ra&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424461"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424461">FN</a></td></tr>
+	<tr><td width="90%">tiladhenuprada&#7717; sn&#257;tv&#257; d&#7771;&#7779;&#7789;v&#257; dhenu&#7747; na sa&#7747;&#347;aya&#7717; // (30.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=60841">tiladhenu</a>-<a href="index.php?contents=einzelwort&IDWord=92507">prada</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=71672">dhenu</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=157858">sa&#7747;&#347;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424462"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424462">FN</a></td></tr>
+	<tr><td width="90%">aindre v&#257; narat&#299;rthe ca v&#257;save vai&#7779;&#7751;ave tath&#257; / (31.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=31692">aindra</a>  <a href="index.php?contents=einzelwort&IDWord=127981">v&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=73158">narat&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=129953">v&#257;sava</a>  <a href="index.php?contents=einzelwort&IDWord=138394">vai&#7779;&#7751;ava</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424463"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424463">FN</a></td></tr>
+	<tr><td width="90%">mah&#257;nady&#257;&#7747; k&#7771;ta&#347;r&#257;ddho brahmaloka&#7747; nayetpit&#7773;n // (31.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=108212">mah&#257;nad&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424464"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424464">FN</a></td></tr>
+	<tr><td width="90%">g&#257;yatre caiva s&#257;vitre t&#299;rthe s&#257;rasvate tath&#257; / (32.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47898">g&#257;yatra</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=159785">s&#257;vitra</a>  <a href="index.php?contents=einzelwort&IDWord=61021">t&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=159502">s&#257;rasvata</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424465"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424465">FN</a></td></tr>
+	<tr><td width="90%">sn&#257;nasandhy&#257;tarpa&#7751;ak&#7771;cchr&#257;ddh&#299; caikottara&#7747; &#347;atam // (32.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=167441">sn&#257;na</a>-<a href="index.php?contents=einzelwort&IDWord=156947">sa&#7747;dhy&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=59574">tarpa&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=40776">k&#7771;t</a>-<a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=30836">eka</a>-<a href="index.php?contents=einzelwort&IDWord=25969">uttara</a>  <a href="index.php?contents=einzelwort&IDWord=140609">&#347;ata</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424466"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424466">FN</a></td></tr>
+	<tr><td width="90%">pit&#7773;&#7751;&#257;&#7747; tu kula&#7747; brahmaloka&#7747; nayati m&#257;nava&#7717; / (33.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=40025">kula</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=109964">m&#257;nava</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424467"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424467">FN</a></td></tr>
+	<tr><td width="90%">brahmayoni&#7747; vinirgacchetprayata&#7717; pit&#7771;m&#257;nasa&#7717; // (33.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100387">brahmayoni</a>  <a href="index.php?contents=einzelwort&IDWord=132104">vinirgam</a>-<a href="index.php?contents=einzelwort&IDWord=93395">prayam</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=109998">m&#257;nasa</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424468"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424468">FN</a></td></tr>
+	<tr><td width="90%">tarpayitv&#257; pit&#7773;ndev&#257;nna vi&#347;edyonisa&#7749;ka&#7789;e / (34.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=59580">tarpay</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=67630">deva</a>-<a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=133898">vi&#347;</a>-<a href="index.php?contents=einzelwort&IDWord=116735">yoni</a>-<a href="index.php?contents=einzelwort&IDWord=155957">sa&#7747;ka&#7789;a</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424469"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424469">FN</a></td></tr>
+	<tr><td width="90%">tarpa&#7751;e k&#257;kaja&#7749;gh&#257;ry&#257; pit&#7773;&#7751;&#257;&#7747; t&#7771;ptirak&#7779;ay&#257; // (34.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=59574">tarpa&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=36120">k&#257;kaja&#7749;gh&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=22932">&#257;rya</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=61686">t&#7771;pti</a>-<a href="index.php?contents=einzelwort&IDWord=408">ak&#7779;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424470"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424470">FN</a></td></tr>
+	<tr><td width="90%">dharm&#257;ra&#7751;ye mata&#7749;gasya v&#257;py&#257;&#7747; &#347;r&#257;ddh&#257;ddiva&#7747; vrajet / (35.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=70924">dharm&#257;ra&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=105262">mata&#7747;ga</a>  <a href="index.php?contents=einzelwort&IDWord=128976">v&#257;p&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>-<a href="index.php?contents=einzelwort&IDWord=65450">div</a>  <a href="index.php?contents=einzelwort&IDWord=139716">vraj</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424471"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424471">FN</a></td></tr>
+	<tr><td width="90%">dharmay&#363;pe ca k&#363;pe ca pit&#7773;&#7751;&#257;man&#7771;&#7751;o bhavet // (35.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=70798">dharmay&#363;pa</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=43055">k&#363;pa</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424472"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424472">FN</a></td></tr>
+	<tr><td width="90%">pram&#257;&#7751;a&#7747; devat&#257;&#7717; santu lokap&#257;l&#257;&#347;ca s&#257;k&#7779;i&#7751;a&#7717; / (36.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=93177">pram&#257;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=67713">devat&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=18305">as</a>  <a href="index.php?contents=einzelwort&IDWord=123776">lokap&#257;la</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=158343">s&#257;k&#7779;in</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424473"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424473">FN</a></td></tr>
+	<tr><td width="90%">may&#257;gatya mata&#7747;ge 'sminpit&#7773;&#7751;&#257;&#7747; ni&#7779;k&#7771;ti&#7717; k&#7771;t&#257; // (36.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=105481">mad</a>-<a href="index.php?contents=einzelwort&IDWord=20254">&#257;gam</a>  <a href="index.php?contents=einzelwort&IDWord=105262">mata&#7747;ga</a>  <a href="index.php?contents=einzelwort&IDWord=24358">idam</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=77348">ni&#7779;k&#7771;ti</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424474"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424474">FN</a></td></tr>
+	<tr><td width="90%">r&#257;mat&#299;rthe nar&#257;&#7717; sn&#257;tv&#257; &#347;r&#257;ddha&#7747; k&#7771;tv&#257; prabh&#257;sake / (37.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=119783">r&#257;mat&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=93056">prabh&#257;saka</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424475"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424475">FN</a></td></tr>
+	<tr><td width="90%">&#347;il&#257;y&#257;&#7747; pretabh&#257;v&#257;tsyurmukt&#257;&#7717; pit&#7771;ga&#7751;&#257;&#7717; kila // (37.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=143981">&#347;il&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=96021">preta</a>-<a href="index.php?contents=einzelwort&IDWord=102257">bh&#257;va</a>-<a href="index.php?contents=einzelwort&IDWord=18305">as</a>-<a href="index.php?contents=einzelwort&IDWord=111709">muc</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=46490">ga&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=38524">kila</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424476"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424476">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddhak&#7771;cca svapu&#7779;&#7789;&#257;y&#257;&#7747; tri&#7717; saphta kulam uddharet / (38.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>-<a href="index.php?contents=einzelwort&IDWord=40776">k&#7771;t</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=168727">sva</a>-<a href="index.php?contents=einzelwort&IDWord=87820">pu&#7779;</a>  <a href="index.php?contents=einzelwort&IDWord=62819">tris</a>  <a href="index.php?contents=einzelwort&IDWord=40025">kula</a>  <a href="index.php?contents=einzelwort&IDWord=27259">uddh&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424477"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424477">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddhak&#7771;nmu&#7751;&#7693;ap&#7771;&#7779;&#7789;h&#257;dau brahmaloka&#7747; nayetpit&#7773;n // (38.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>-<a href="index.php?contents=einzelwort&IDWord=40776">k&#7771;t</a>-<a href="index.php?contents=einzelwort&IDWord=111792">mu&#7751;&#7693;ap&#7771;&#7779;&#7789;ha</a>-<a href="index.php?contents=einzelwort&IDWord=21043">&#257;di</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424478"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424478">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;y&#257;&#7747; na hi tatsth&#257;na&#7747; yatra t&#299;rtha&#7747; na vidyate / (39.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=171790">hi</a>  <a href="index.php?contents=einzelwort&IDWord=58785">tad</a>-<a href="index.php?contents=einzelwort&IDWord=166936">sth&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=114703">yatra</a>  <a href="index.php?contents=einzelwort&IDWord=61021">t&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>  <a href="index.php?contents=einzelwort&IDWord=131311">vid</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424479"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424479">FN</a></td></tr>
+	<tr><td width="90%">pa&#241;cakro&#347;e gay&#257;k&#7779;etre yatra tatra tu pi&#7751;&#7693;ada&#7717; // (39.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=79459">pa&#241;cakro&#347;a</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=44898">k&#7779;etra</a>  <a href="index.php?contents=einzelwort&IDWord=114703">yatra</a>  <a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424480"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424480">FN</a></td></tr>
+	<tr><td width="90%">ak&#7779;aya&#7747; phalam&#257;pnoti brahmaloka&#7747; nayetpit&#7773;n / (40.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=408">ak&#7779;aya</a>  <a href="index.php?contents=einzelwort&IDWord=96982">phala</a>-<a href="index.php?contents=einzelwort&IDWord=21709">&#257;p</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424481"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424481">FN</a></td></tr>
+	<tr><td width="90%">jan&#257;rdanasya haste tu pi&#7751;&#7693;a&#7747; dady&#257;tsvaka&#7747; nara&#7717; // (40.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=55506">jan&#257;rdana</a>  <a href="index.php?contents=einzelwort&IDWord=171164">hasta</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=168728">svaka</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424482"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424482">FN</a></td></tr>
+	<tr><td width="90%">e&#7779;a pi&#7751;&#7693;e may&#257; dattastava haste jan&#257;rdana / (41.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=31380">etad</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=105481">mad</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=63271">tvad</a>  <a href="index.php?contents=einzelwort&IDWord=171164">hasta</a>  <a href="index.php?contents=einzelwort&IDWord=55506">jan&#257;rdana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424483"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424483">FN</a></td></tr>
+	<tr><td width="90%">paraloka&#7747; gate mok&#7779;amak&#7779;ayyamupati&#7779;&#7789;hat&#257;m // (41.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=80915">para</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=47093">gam</a>  <a href="index.php?contents=einzelwort&IDWord=113356">mok&#7779;a</a>-<a href="index.php?contents=einzelwort&IDWord=421">ak&#7779;ayya</a>-<a href="index.php?contents=einzelwort&IDWord=29265">upasth&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424484"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424484">FN</a></td></tr>
+	<tr><td width="90%">brahmalokamav&#257;pnoti pit&#7771;bhi&#7717; saha ni&#347;citam / (42.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>-<a href="index.php?contents=einzelwort&IDWord=16555">av&#257;p</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=155340">saha</a>  <a href="index.php?contents=einzelwort&IDWord=77144">ni&#347;citam</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424485"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424485">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;y&#257;&#7747; dharmap&#7771;&#7779;&#7789;he ca sarasi brahma&#7751;astath&#257; // (42.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=70758">dharmap&#7771;&#7779;&#7789;ha</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=153932">saras</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424486"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424486">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;&#347;&#299;r&#7779;e 'k&#7779;ayava&#7789;e pit&#7773;&#7751;&#257;&#7747; dattamak&#7779;ayam / (43.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47160">gay&#257;&#347;&#299;r&#7779;a</a>  <a href="index.php?contents=einzelwort&IDWord=418">ak&#7779;ayava&#7789;a</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=408">ak&#7779;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424487"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424487">FN</a></td></tr>
+	<tr><td width="90%">dharm&#257;ra&#7751;ya&#7747; dharmap&#7771;&#7779;&#7789;ha&#7747; dhenuk&#257;ra&#7751;yameva ca // (43.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=70924">dharm&#257;ra&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=70758">dharmap&#7771;&#7779;&#7789;ha</a>  <a href="index.php?contents=einzelwort&IDWord=71687">dhenuk&#257;ra&#7751;ya</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424488"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424488">FN</a></td></tr>
+	<tr><td width="90%">d&#7771;&#7779;&#7789;vait&#257;ni pit&#7773;&#7747;&#347;c&#257;ryava&#7747;&#347;y&#257;nvi&#7747;&#347;atimuddharet / (44.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>-<a href="index.php?contents=einzelwort&IDWord=31380">etad</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=22932">&#257;rya</a>-<a href="index.php?contents=einzelwort&IDWord=127976">va&#7747;&#347;ya</a>-<a href="index.php?contents=einzelwort&IDWord=135429">vi&#7747;&#347;ati</a>-<a href="index.php?contents=einzelwort&IDWord=27259">uddh&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424489"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424489">FN</a></td></tr>
+	<tr><td width="90%">brahm&#257;ra&#7751;ya&#7747; mah&#257;nady&#257;&#7717; pa&#347;cimo bh&#257;ga ucyate // (44.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100522">brahm&#257;ra&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=108212">mah&#257;nad&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=83877">pa&#347;cima</a>  <a href="index.php?contents=einzelwort&IDWord=101803">bh&#257;ga</a>  <a href="index.php?contents=einzelwort&IDWord=124726">vac</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424490"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424490">FN</a></td></tr>
+	<tr><td width="90%">p&#363;rvo brahmasado bh&#257;go n&#257;g&#257;drirbharat&#257;&#347;rama&#7717; / (45.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=96506">p&#363;rva</a>  <a href="index.php?contents=einzelwort&IDWord=100455">brahmasadas</a>  <a href="index.php?contents=einzelwort&IDWord=101803">bh&#257;ga</a>  <a href="index.php?contents=einzelwort&IDWord=73748">n&#257;ga</a>-<a href="index.php?contents=einzelwort&IDWord=3692">adri</a>-<a href="index.php?contents=einzelwort&IDWord=101394">bharat&#257;&#347;rama</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424491"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424491">FN</a></td></tr>
+	<tr><td width="90%">bharatasy&#257;&#347;rame &#347;r&#257;ddh&#299; mata&#7749;gasya pade bhavet // (45.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=101367">bharata</a>-<a href="index.php?contents=einzelwort&IDWord=23612">&#257;&#347;rama</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=105262">mata&#7747;ga</a>  <a href="index.php?contents=einzelwort&IDWord=80468">pada</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424492"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424492">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;&#347;&#299;r&#7779;&#257;ddak&#7779;i&#7751;ato mah&#257;nady&#257;&#347;ca pa&#347;cime / (46.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47160">gay&#257;&#347;&#299;r&#7779;a</a>-<a href="index.php?contents=einzelwort&IDWord=63457">dak&#7779;i&#7751;atas</a>  <a href="index.php?contents=einzelwort&IDWord=108212">mah&#257;nad&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=83877">pa&#347;cima</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424493"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424493">FN</a></td></tr>
+	<tr><td width="90%">tatsm&#7771;ta&#7747; campakavana&#7747; tatra p&#257;&#7751;&#7693;u&#347;il&#257;sti hi // (46.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>-<a href="index.php?contents=einzelwort&IDWord=168153">sm&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=52470">campakavana</a>  <a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=84277">p&#257;&#7751;&#7693;u</a>-<a href="index.php?contents=einzelwort&IDWord=143981">&#347;il&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=18305">as</a>  <a href="index.php?contents=einzelwort&IDWord=171790">hi</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424494"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424494">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddh&#299; tatra t&#7771;t&#299;y&#257;y&#257;&#7747; ni&#347;cir&#257;y&#257;&#347;ca ma&#7751;&#7693;ale / (47.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=61659">t&#7771;t&#299;y&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=77149">ni&#347;cir&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=105170">ma&#7751;&#7693;ala</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424495"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424495">FN</a></td></tr>
+	<tr><td width="90%">mah&#257;hrade ca kau&#347;iky&#257;mak&#7779;aya&#7747; phalam&#257;pnuy&#257;t // (47.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=109072">mah&#257;hrada</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=42854">kau&#347;ik&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=408">ak&#7779;aya</a>  <a href="index.php?contents=einzelwort&IDWord=96982">phala</a>-<a href="index.php?contents=einzelwort&IDWord=21709">&#257;p</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424496"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424496">FN</a></td></tr>
+	<tr><td width="90%">vaitara&#7751;y&#257;&#347; cottaratas t&#7771;t&#299;y&#257;khyo jal&#257;&#347;aya&#7717; / (48.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=137635">vaitara&#7751;&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=25998">uttaratas</a>  <a href="index.php?contents=einzelwort&IDWord=61658">t&#7771;t&#299;ya</a>-<a href="index.php?contents=einzelwort&IDWord=20217">&#257;khy&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=56328">jal&#257;&#347;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424497"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424497">FN</a></td></tr>
+	<tr><td width="90%">pad&#257;ni tatra krau&#241;casya &#347;r&#257;ddh&#299; svarga&#7747; nayetpit&#7773;n // (48.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=80468">pada</a>  <a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=43624">krau&#241;ca</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=169262">svarga</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424498"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424498">FN</a></td></tr>
+	<tr><td width="90%">krau&#241;cap&#257;d&#257;duttarato ni&#347;cir&#257;khyo jal&#257;&#347;aya&#7717; / (49.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=43631">krau&#241;cap&#257;da</a>-<a href="index.php?contents=einzelwort&IDWord=25998">uttaratas</a>  <a href="index.php?contents=einzelwort&IDWord=77149">ni&#347;cir&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=20217">&#257;khy&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=56328">jal&#257;&#347;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424499"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424499">FN</a></td></tr>
+	<tr><td width="90%">sak&#7771;dyatr&#257;bhigamana&#7747; sak&#7771;t pi&#7751;&#7693;aprap&#257;tanam // (49.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=149436">sak&#7771;t</a>-<a href="index.php?contents=einzelwort&IDWord=114703">yatra</a>-<a href="index.php?contents=einzelwort&IDWord=10810">abhigamana</a>  <a href="index.php?contents=einzelwort&IDWord=149436">sak&#7771;t</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=92834">prap&#257;tana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424500"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424500">FN</a></td></tr>
+	<tr><td width="90%">durlabha&#7747; ki&#7747; punarnityam asmin eva vyavasthiti&#7717; / (50.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=66826">durlabha</a>  <a href="index.php?contents=einzelwort&IDWord=32423">ka</a>  <a href="index.php?contents=einzelwort&IDWord=87100">punar</a>-<a href="index.php?contents=einzelwort&IDWord=75131">nityam</a>  <a href="index.php?contents=einzelwort&IDWord=24358">idam</a>  <a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=138931">vyavasthiti</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424501"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424501">FN</a></td></tr>
+	<tr><td width="90%">mah&#257;nady&#257;mupasp&#7771;&#347;ya tarpayetpit&#7771;devat&#257;&#7717; // (50.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=108212">mah&#257;nad&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=29303">upasp&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=59580">tarpay</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=67713">devat&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424502"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424502">FN</a></td></tr>
+	<tr><td width="90%">ak&#7779;ay&#257;npr&#257;pnuy&#257;llok&#257;nkula&#7747; c&#257;pi samuddharet / (51.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=408">ak&#7779;aya</a>-<a href="index.php?contents=einzelwort&IDWord=95388">pr&#257;p</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>-<a href="index.php?contents=einzelwort&IDWord=40025">kula</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=9620">api</a>  <a href="index.php?contents=einzelwort&IDWord=152769">samuddh&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424503"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424503">FN</a></td></tr>
+	<tr><td width="90%">s&#257;vitre pa&#7789;hyate sandhy&#257; k&#7771;t&#257; sy&#257;d dv&#257;da&#347;&#257;bdik&#299; // (51.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=159785">s&#257;vitra</a>  <a href="index.php?contents=einzelwort&IDWord=80064">pa&#7789;h</a>  <a href="index.php?contents=einzelwort&IDWord=156947">sa&#7747;dhy&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=18305">as</a>  <a href="index.php?contents=einzelwort&IDWord=69528">dv&#257;da&#347;an</a>-<a href="index.php?contents=einzelwort&IDWord=22012">&#257;bdika</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424504"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424504">FN</a></td></tr>
+	<tr><td width="90%">&#347;uklak&#7771;&#7779;&#7751;&#257;vubhau pak&#7779;au gay&#257;y&#257;&#7747; yo vasennara&#7717; / (52.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=145114">&#347;ukla</a>-<a href="index.php?contents=einzelwort&IDWord=41294">k&#7771;&#7779;&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=29733">ubh</a>  <a href="index.php?contents=einzelwort&IDWord=79192">pak&#7779;a</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=127263">vas</a>-<a href="index.php?contents=einzelwort&IDWord=73128">nara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424505"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424505">FN</a></td></tr>
+	<tr><td width="90%">pun&#257;ty &#257; saptama&#7747; caiva kula&#7747; n&#257;styatra sa&#7747;&#347;aya&#7717; // (52.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=79147">p&#363;</a>  <a href="index.php?contents=einzelwort&IDWord=19882">&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=150893">saptama</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=40025">kula</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>-<a href="index.php?contents=einzelwort&IDWord=18305">as</a>-<a href="index.php?contents=einzelwort&IDWord=3359">atra</a>  <a href="index.php?contents=einzelwort&IDWord=157858">sa&#7747;&#347;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424506"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424506">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;y&#257;&#7747; mu&#7751;&#7693;ap&#7771;&#7779;&#7789;ha&#7747; ca aravinda&#7747; ca parvatam / (53.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=111792">mu&#7751;&#7693;ap&#7771;&#7779;&#7789;ha</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=14101">aravinda</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=83391">parvata</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424507"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424507">FN</a></td></tr>
+	<tr><td width="90%">t&#7771;t&#299;ya&#7747; krau&#241;cap&#257;da&#7747; ca d&#7771;&#7779;&#7789;v&#257; p&#257;pai&#7717; pramucyate // (53.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=61657">t&#7771;t&#299;ya</a>  <a href="index.php?contents=einzelwort&IDWord=43631">krau&#241;cap&#257;da</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=84806">p&#257;pa</a>  <a href="index.php?contents=einzelwort&IDWord=93297">pramuc</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424508"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424508">FN</a></td></tr>
+	<tr><td width="90%">makare vartam&#257;ne ca graha&#7751;e candras&#363;ryayo&#7717; / (54.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=104552">makara</a>  <a href="index.php?contents=einzelwort&IDWord=136033">v&#7771;t</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=50164">graha&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=52129">candra</a>-<a href="index.php?contents=einzelwort&IDWord=168520">s&#363;rya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424509"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424509">FN</a></td></tr>
+	<tr><td width="90%">durlabha&#7747; tri&#7779;u loke&#7779;u gay&#257;y&#257;&#7747; pi&#7751;&#7693;ap&#257;tanam // (54.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=66826">durlabha</a>  <a href="index.php?contents=einzelwort&IDWord=62328">tri</a>  <a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=85974">pi&#7751;&#7693;ap&#257;tana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424510"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424510">FN</a></td></tr>
+	<tr><td width="90%">mah&#257;hrade ca kau&#347;iky&#257;&#7747; m&#363;lak&#7779;etre vi&#347;e&#7779;ata&#7717; / (55.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=109072">mah&#257;hrada</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=42854">kau&#347;ik&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=113968">m&#363;la</a>-<a href="index.php?contents=einzelwort&IDWord=44898">k&#7779;etra</a>  <a href="index.php?contents=einzelwort&IDWord=134084">vi&#347;e&#7779;ata&#7717;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424511"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424511">FN</a></td></tr>
+	<tr><td width="90%">guh&#257;y&#257;&#7747; g&#7771;dhrak&#363;&#7789;asya &#347;r&#257;ddha&#7747; datta&#7747; mah&#257;phalam // (55.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=48747">guh&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=48856">g&#7771;dhrak&#363;&#7789;a</a>  <a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=107884">mah&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424512"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424512">FN</a></td></tr>
+	<tr><td width="90%">yatra m&#257;he&#347;var&#299; dh&#257;r&#257; &#347;r&#257;ddh&#299; tatr&#257;n&#7771;&#7751;o bhavet / (56.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=114703">yatra</a>  <a href="index.php?contents=einzelwort&IDWord=110814">m&#257;he&#347;vara</a>  <a href="index.php?contents=einzelwort&IDWord=71272">dh&#257;r&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>-<a href="index.php?contents=einzelwort&IDWord=7574">an&#7771;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424513"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424513">FN</a></td></tr>
+	<tr><td width="90%">pu&#7751;y&#257;&#7747; vi&#347;&#257;l&#257;m&#257;s&#257;dya nad&#299;&#7747; trailokyavi&#347;rut&#257;m // (56.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=133989">vi&#347;&#257;la</a>-<a href="index.php?contents=einzelwort&IDWord=23821">&#257;s&#257;day</a>  <a href="index.php?contents=einzelwort&IDWord=72696">nad&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=62989">trailokya</a>-<a href="index.php?contents=einzelwort&IDWord=134167">vi&#347;ru</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424514"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424514">FN</a></td></tr>
+	<tr><td width="90%">agni&#7779;&#7789;omamav&#257;pnoti &#347;r&#257;ddh&#299; pr&#257;y&#257;ddiva&#7747; nara&#7717; / (57.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=911">agni&#7779;&#7789;oma</a>-<a href="index.php?contents=einzelwort&IDWord=16555">av&#257;p</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=93401">pray&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=65450">div</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424515"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424515">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddh&#299; m&#257;sapade sn&#257;tv&#257; v&#257;japeyaphala&#7747; labhet // (57.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=110700">m&#257;sapada</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=128318">v&#257;japeya</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424516"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424516">FN</a></td></tr>
+	<tr><td width="90%">ravip&#257;de pi&#7751;&#7693;ad&#257;n&#257;tpatitoddh&#257;ra&#7751;a&#7747; bhavet / (58.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=118354">ravi</a>-<a href="index.php?contents=einzelwort&IDWord=84551">p&#257;da</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=64769">d&#257;na</a>-<a href="index.php?contents=einzelwort&IDWord=80176">pat</a>-<a href="index.php?contents=einzelwort&IDWord=27249">uddh&#257;ra&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424517"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424517">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;stho yo dad&#257;tyanna&#7747; pitarastena putri&#7751;a&#7717; // (58.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=166783">stha</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=8192">anna</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=87018">putrin</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424518"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424518">FN</a></td></tr>
+	<tr><td width="90%">k&#257;&#7749;k&#7779;ante pitara&#7717; putr&#257;nnarak&#257;dbhayabh&#299;rava&#7717; / (59.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=36347">k&#257;&#7749;k&#7779;</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=87017">putra</a>-<a href="index.php?contents=einzelwort&IDWord=73129">naraka</a>-<a href="index.php?contents=einzelwort&IDWord=101290">bhaya</a>-<a href="index.php?contents=einzelwort&IDWord=102798">bh&#299;ru</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424519"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424519">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;&#7747; y&#257;syati ya&#7717; ka&#347;citso 'sm&#257;n sa&#7747;tarayi&#7779;yati // (59.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=115725">y&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=35913">ka&#347;cid</a>-<a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=105481">mad</a>  <a href="index.php?contents=einzelwort&IDWord=156626">sa&#7747;taray</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424520"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424520">FN</a></td></tr>
+	<tr><td width="90%">gay&#257;pr&#257;pta&#7747; suta&#7747; d&#7771;&#7779;&#7789;v&#257; pit&#7773;&#7751;&#257;mutsavo bhavet / (60.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=95388">pr&#257;p</a>  <a href="index.php?contents=einzelwort&IDWord=161704">suta</a>  <a href="index.php?contents=einzelwort&IDWord=67505">d&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=26462">utsava</a>  <a href="index.php?contents=einzelwort&IDWord=100674">bh&#363;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424521"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424521">FN</a></td></tr>
+	<tr><td width="90%">padbhy&#257;mapi jala&#7747; sp&#7771;&#7779;&#7789;v&#257; asmabhya&#7747; kila d&#257;syati // (60.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=80465">pad</a>-<a href="index.php?contents=einzelwort&IDWord=9620">api</a>  <a href="index.php?contents=einzelwort&IDWord=55987">jala</a>  <a href="index.php?contents=einzelwort&IDWord=167759">sp&#7771;&#347;</a>  <a href="index.php?contents=einzelwort&IDWord=105481">mad</a>  <a href="index.php?contents=einzelwort&IDWord=38524">kila</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424522"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424522">FN</a></td></tr>
+	<tr><td width="90%">&#257;tmajo v&#257; tath&#257;nyo v&#257; gay&#257;k&#363;pe yad&#257; tad&#257; / (61.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=20910">&#257;tmaja</a>  <a href="index.php?contents=einzelwort&IDWord=127981">v&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=8269">anya</a>  <a href="index.php?contents=einzelwort&IDWord=127981">v&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=47152">gay&#257;k&#363;pa</a>  <a href="index.php?contents=einzelwort&IDWord=115164">yad&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=58791">tad&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424523"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424523">FN</a></td></tr>
+	<tr><td width="90%">yann&#257;mn&#257; p&#257;tayetpi&#7751;&#7693;a&#7747; ta&#7747; nayedbrahma &#347;&#257;&#347;vatam // (61.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=115157">yad</a>-<a href="index.php?contents=einzelwort&IDWord=74346">n&#257;man</a>  <a href="index.php?contents=einzelwort&IDWord=84427">p&#257;tay</a>-<a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=100168">brahman</a>  <a href="index.php?contents=einzelwort&IDWord=143381">&#347;&#257;&#347;vata</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424524"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424524">FN</a></td></tr>
+	<tr><td width="90%">pu&#7751;&#7693;ar&#299;ka&#7747; vi&#7779;&#7751;uloka&#7747; pr&#257;pnuy&#257;tko&#7789;it&#299;rthaga&#7717; / (62.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=86894">pu&#7751;&#7693;ar&#299;ka</a>  <a href="index.php?contents=einzelwort&IDWord=134864">vi&#7779;&#7751;u</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=95388">pr&#257;p</a>-<a href="index.php?contents=einzelwort&IDWord=42167">ko&#7789;it&#299;rtha</a>-<a href="index.php?contents=einzelwort&IDWord=46218">ga</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424525"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424525">FN</a></td></tr>
+	<tr><td width="90%">y&#257; s&#257; vaitara&#7751;&#299; n&#257;ma tri&#7779;u loke&#7779;u vi&#347;rut&#257; // (62.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=137635">vaitara&#7751;&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=74350">n&#257;ma</a>  <a href="index.php?contents=einzelwort&IDWord=62328">tri</a>  <a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=134167">vi&#347;ru</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424526"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424526">FN</a></td></tr>
+	<tr><td width="90%">s&#257;vat&#299;r&#7751;&#257; gay&#257;k&#7779;etre pit&#7773;&#7751;&#257;&#7747; t&#257;ra&#7751;&#257;ya hi / (63.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>-<a href="index.php?contents=einzelwort&IDWord=15674">avat&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=44898">k&#7779;etra</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=60165">t&#257;ra&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=171790">hi</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424527"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424527">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddhada&#7717; pi&#7751;&#7693;adastatra goprad&#257;na&#7747; karoti ya&#7717; // (63.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147273">&#347;r&#257;ddha</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a>-<a href="index.php?contents=einzelwort&IDWord=58728">tatra</a>  <a href="index.php?contents=einzelwort&IDWord=49106">go</a>-<a href="index.php?contents=einzelwort&IDWord=92549">prad&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424528"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424528">FN</a></td></tr>
+	<tr><td width="90%">ekavi&#7747;&#347;ativa&#7747;&#347;y&#257;nsa t&#257;rayenn&#257;tra sa&#7747;&#347;aya&#7717; / (64.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=31067">ekavi&#7747;&#347;ati</a>-<a href="index.php?contents=einzelwort&IDWord=127976">va&#7747;&#347;ya</a>-<a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=60184">t&#257;ray</a>-<a href="index.php?contents=einzelwort&IDWord=72292">na</a>-<a href="index.php?contents=einzelwort&IDWord=3359">atra</a>  <a href="index.php?contents=einzelwort&IDWord=157858">sa&#7747;&#347;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424529"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424529">FN</a></td></tr>
+	<tr><td width="90%">yadi putro gay&#257;&#7747; gacchetkad&#257;citk&#257;laparyaye // (64.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=115169">yadi</a>  <a href="index.php?contents=einzelwort&IDWord=87017">putra</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=47093">gam</a>-<a href="index.php?contents=einzelwort&IDWord=33483">kad&#257;cid</a>-<a href="index.php?contents=einzelwort&IDWord=37563">k&#257;la</a>-<a href="index.php?contents=einzelwort&IDWord=83195">paryaya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424530"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424530">FN</a></td></tr>
+	<tr><td width="90%">t&#257;neva bhojayedvipr&#257;nbrahma&#7751;&#257; ye prakalpit&#257;&#7717; / (65.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=103534">bhojay</a>-<a href="index.php?contents=einzelwort&IDWord=132555">vipra</a>-<a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>  <a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=89553">prakalpay</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424531"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424531">FN</a></td></tr>
+	<tr><td width="90%">te&#7779;&#257;&#7747; brahmasada&#7717; sth&#257;na&#7747; somap&#257;na&#7747; tathaiva ca // (65.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=100455">brahmasadas</a>  <a href="index.php?contents=einzelwort&IDWord=166936">sth&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=164918">somap&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=31491">eva</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424532"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424532">FN</a></td></tr>
+	<tr><td width="90%">brahmaprakalpita&#7747; sth&#257;na&#7747; vipr&#257; brahmaprakalpit&#257;&#7717; / (66.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=89553">prakalpay</a>  <a href="index.php?contents=einzelwort&IDWord=166936">sth&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=132555">vipra</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=89553">prakalpay</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424533"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424533">FN</a></td></tr>
+	<tr><td width="90%">p&#363;jitai&#7717; p&#363;jit&#257;&#7717; sarve pit&#7771;bhi&#7717; saha devat&#257;&#7717; // (66.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=89300">p&#363;jay</a>  <a href="index.php?contents=einzelwort&IDWord=89300">p&#363;jay</a>  <a href="index.php?contents=einzelwort&IDWord=154364">sarva</a>  <a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=155340">saha</a>  <a href="index.php?contents=einzelwort&IDWord=67713">devat&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424534"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424534">FN</a></td></tr>
+	<tr><td width="90%">tarpayettu gay&#257;vipr&#257;nhavyakavyairvidh&#257;nata&#7717; / (67.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=59580">tarpay</a>-<a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=132555">vipra</a>-<a href="index.php?contents=einzelwort&IDWord=171110">havya</a>-<a href="index.php?contents=einzelwort&IDWord=35878">kavya</a>-<a href="index.php?contents=einzelwort&IDWord=131803">vidh&#257;na</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424535"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424535">FN</a></td></tr>
+	<tr><td width="90%">sth&#257;na&#7747; dehaparity&#257;ge gay&#257;y&#257;&#7747; tu vidh&#299;yate // (67.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=166936">sth&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=68249">deha</a>-<a href="index.php?contents=einzelwort&IDWord=81825">parity&#257;ga</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=131795">vidh&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424536"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424536">FN</a></td></tr>
+	<tr><td width="90%">ya&#7717; karoti v&#7771;&#7779;otsarga&#7747; gay&#257;k&#7779;etre hyanuttame / (68.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=115157">yad</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=136589">v&#7771;&#7779;otsarga</a>  <a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=44898">k&#7779;etra</a>  <a href="index.php?contents=einzelwort&IDWord=171790">hi</a>-<a href="index.php?contents=einzelwort&IDWord=6301">anuttama</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424537"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424537">FN</a></td></tr>
+	<tr><td width="90%">agni&#7779;&#7789;oma&#347;ata&#7747; pu&#7751;ya&#7747; labhate n&#257;tra sa&#7747;&#347;aya&#7717; // (68.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=911">agni&#7779;&#7789;oma</a>-<a href="index.php?contents=einzelwort&IDWord=140609">&#347;ata</a>  <a href="index.php?contents=einzelwort&IDWord=86932">pu&#7751;ya</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a>  <a href="index.php?contents=einzelwort&IDWord=72292">na</a>-<a href="index.php?contents=einzelwort&IDWord=3359">atra</a>  <a href="index.php?contents=einzelwort&IDWord=157858">sa&#7747;&#347;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424538"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424538">FN</a></td></tr>
+	<tr><td width="90%">&#257;tmano 'pi mah&#257;buddhirgay&#257;y&#257;&#7747; tu tilairvin&#257; / (69.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=20890">&#257;tman</a>  <a href="index.php?contents=einzelwort&IDWord=9620">api</a>  <a href="index.php?contents=einzelwort&IDWord=107884">mah&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=99463">buddhi</a>-<a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=60794">tila</a>-<a href="index.php?contents=einzelwort&IDWord=131976">vin&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424539"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424539">FN</a></td></tr>
+	<tr><td width="90%">pi&#7751;&#7693;anirv&#257;pa&#7751;a&#7747; kury&#257;danye&#7779;&#257;mapi m&#257;nava&#7717; // (69.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=76660">nirv&#257;pa&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=40716">k&#7771;</a>-<a href="index.php?contents=einzelwort&IDWord=8269">anya</a>-<a href="index.php?contents=einzelwort&IDWord=9620">api</a>  <a href="index.php?contents=einzelwort&IDWord=109964">m&#257;nava</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424540"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424540">FN</a></td></tr>
+	<tr><td width="90%">y&#257;vanto j&#241;&#257;taya&#7717; pitry&#257; b&#257;ndhav&#257;&#7717; suh&#7771;dastath&#257; / (70.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=116061">y&#257;vant</a>  <a href="index.php?contents=einzelwort&IDWord=57636">j&#241;&#257;ti</a>  <a href="index.php?contents=einzelwort&IDWord=86229">pitrya</a>  <a href="index.php?contents=einzelwort&IDWord=98643">b&#257;ndhava</a>  <a href="index.php?contents=einzelwort&IDWord=164253">suh&#7771;d</a>-<a href="index.php?contents=einzelwort&IDWord=58745">tath&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424541"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424541">FN</a></td></tr>
+	<tr><td width="90%">tebhyo vy&#257;sagay&#257;bh&#363;mau pi&#7751;&#7693;o deyo vidh&#257;nata&#7717; // (70.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=58785">tad</a>  <a href="index.php?contents=einzelwort&IDWord=139457">vy&#257;sa</a>-<a href="index.php?contents=einzelwort&IDWord=47144">gay&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=103957">bh&#363;mi</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=64641">d&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=131803">vidh&#257;na</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424542"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424542">FN</a></td></tr>
+	<tr><td width="90%">r&#257;mat&#299;rthe nara&#7717; sn&#257;tv&#257; go&#347;atasy&#257;pnuy&#257;tphalam / (71.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=119783">r&#257;mat&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=49106">go</a>-<a href="index.php?contents=einzelwort&IDWord=140609">&#347;ata</a>-<a href="index.php?contents=einzelwort&IDWord=21709">&#257;p</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424543"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424543">FN</a></td></tr>
+	<tr><td width="90%">mata&#7749;gav&#257;py&#257;&#7747; sn&#257;tv&#257; ca gosahasraphala&#7747; labhet // (71.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=105262">mata&#7747;ga</a>-<a href="index.php?contents=einzelwort&IDWord=128976">v&#257;p&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=49106">go</a>-<a href="index.php?contents=einzelwort&IDWord=155575">sahasra</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424544"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424544">FN</a></td></tr>
+	<tr><td width="90%">ni&#347;cir&#257;sa&#7747;game sn&#257;tv&#257; brahmaloka&#7747; nayetpit&#7773;n / (72.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=77149">ni&#347;cir&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=156244">sa&#7747;gama</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=100169">brahman</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=77934">n&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424545"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424545">FN</a></td></tr>
+	<tr><td width="90%">vasi&#7779;&#7789;hasy&#257;&#347;rame sn&#257;tv&#257; v&#257;japeya&#7747; ca vindati // (72.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=127371">vasi&#7779;&#7789;ha</a>-<a href="index.php?contents=einzelwort&IDWord=23612">&#257;&#347;rama</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=128318">v&#257;japeya</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=131311">vid</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424546"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424546">FN</a></td></tr>
+	<tr><td width="90%">mah&#257;kau&#347;y&#257;&#7747; sam&#257;v&#257;s&#257;da&#347;vamedhaphala&#7747; labhet / (73.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=107971">mah&#257;kau&#347;&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=152288">sam&#257;v&#257;sa</a>-<a href="index.php?contents=einzelwort&IDWord=17988">a&#347;vamedha</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424547"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424547">FN</a></td></tr>
+	<tr><td width="90%">pit&#257;mahasya sarasa&#7717; pras&#7771;t&#257; lokap&#257;van&#299; // (73.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=86087">pit&#257;maha</a>  <a href="index.php?contents=einzelwort&IDWord=153932">saras</a>  <a href="index.php?contents=einzelwort&IDWord=94414">pras&#7771;</a>  <a href="index.php?contents=einzelwort&IDWord=123727">loka</a>-<a href="index.php?contents=einzelwort&IDWord=85539">p&#257;vana</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424548"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424548">FN</a></td></tr>
+	<tr><td width="90%">sam&#299;pe tvagnidh&#257;reti vi&#347;rut&#257; kapil&#257; hi s&#257; / (74.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=152502">sam&#299;pa</a>  <a href="index.php?contents=einzelwort&IDWord=61103">tu</a>-<a href="index.php?contents=einzelwort&IDWord=803">agnidh&#257;r&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=24302">iti</a>  <a href="index.php?contents=einzelwort&IDWord=134167">vi&#347;ru</a>  <a href="index.php?contents=einzelwort&IDWord=33939">kapila</a>  <a href="index.php?contents=einzelwort&IDWord=171790">hi</a>  <a href="index.php?contents=einzelwort&IDWord=58785">tad</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424549"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424549">FN</a></td></tr>
+	<tr><td width="90%">agni&#7779;&#7789;omaphala&#7747; &#347;r&#257;ddh&#299; sn&#257;tv&#257;tra k&#7771;tak&#7771;tyat&#257; // (74.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=911">agni&#7779;&#7789;oma</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=3359">atra</a>  <a href="index.php?contents=einzelwort&IDWord=40794">k&#7771;tak&#7771;tya</a>-<a href="index.php?contents=einzelwort&IDWord=58521">t&#257;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424550"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424550">FN</a></td></tr>
+	<tr><td width="90%">&#347;r&#257;ddh&#299; kum&#257;radh&#257;r&#257;y&#257;ma&#347;vamedhaphala&#7747; labhet / (75.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=147274">&#347;r&#257;ddhin</a>  <a href="index.php?contents=einzelwort&IDWord=39674">kum&#257;radh&#257;r&#257;</a>-<a href="index.php?contents=einzelwort&IDWord=17988">a&#347;vamedha</a>-<a href="index.php?contents=einzelwort&IDWord=96982">phala</a>  <a href="index.php?contents=einzelwort&IDWord=122591">labh</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424551"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424551">FN</a></td></tr>
+	<tr><td width="90%">kum&#257;ramabhigamy&#257;tha natv&#257; muktimav&#257;pnuy&#257;t // (75.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=39655">kum&#257;ra</a>-<a href="index.php?contents=einzelwort&IDWord=10808">abhigam</a>-<a href="index.php?contents=einzelwort&IDWord=3394">atha</a>  <a href="index.php?contents=einzelwort&IDWord=72995">nam</a>  <a href="index.php?contents=einzelwort&IDWord=111397">mukti</a>-<a href="index.php?contents=einzelwort&IDWord=16555">av&#257;p</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424552"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424552">FN</a></td></tr>
+	<tr><td width="90%">somaku&#7751;&#7693;e nara&#7717; sn&#257;tv&#257; somaloka&#7747; ca gacchati / (76.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=164843">somaku&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=167425">sn&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=164827">soma</a>-<a href="index.php?contents=einzelwort&IDWord=123727">loka</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=47093">gam</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424553"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424553">FN</a></td></tr>
+	<tr><td width="90%">sa&#7747;vartasya naro v&#257;py&#257;&#7747; subhaga&#7717; sy&#257;ttu pi&#7751;&#7693;ada&#7717; // (76.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=157608">sa&#7747;varta</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=128976">v&#257;p&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=162613">subhaga</a>  <a href="index.php?contents=einzelwort&IDWord=18305">as</a>-<a href="index.php?contents=einzelwort&IDWord=61103">tu</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424554"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424554">FN</a></td></tr>
+	<tr><td width="90%">dhautap&#257;po naro y&#257;ti pretaku&#7751;&#7693;e ca pi&#7751;&#7693;ada&#7717; / (77.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=71387">dh&#257;v</a>-<a href="index.php?contents=einzelwort&IDWord=84806">p&#257;pa</a>  <a href="index.php?contents=einzelwort&IDWord=73128">nara</a>  <a href="index.php?contents=einzelwort&IDWord=115725">y&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=96028">pretaku&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=51268">ca</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424555"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424555">FN</a></td></tr>
+	<tr><td width="90%">devanady&#257;&#7747; lelih&#257;ne mathane j&#257;nugartake // (77.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=67802">devanad&#299;</a>  <a href="index.php?contents=einzelwort&IDWord=123680">lelih&#257;na</a>  <a href="index.php?contents=einzelwort&IDWord=105450">mathana</a>  <a href="index.php?contents=einzelwort&IDWord=56710">j&#257;nugartaka</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424556"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424556">FN</a></td></tr>
+	<tr><td width="90%">evam&#257;di&#7779;u t&#299;rthe&#7779;u pi&#7751;&#7693;adast&#257;rayetpit&#7773;n / (78.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=31500">evam&#257;di</a>  <a href="index.php?contents=einzelwort&IDWord=61021">t&#299;rtha</a>  <a href="index.php?contents=einzelwort&IDWord=85941">pi&#7751;&#7693;a</a>-<a href="index.php?contents=einzelwort&IDWord=63403">da</a>-<a href="index.php?contents=einzelwort&IDWord=60184">t&#257;ray</a>-<a href="index.php?contents=einzelwort&IDWord=86083">pit&#7771;</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424557"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424557">FN</a></td></tr>
+	<tr><td width="90%">natv&#257; dev&#257;nvasi&#7779;&#7789;he&#347;aprabh&#7771;t&#299;n&#7771;&#7751;asa&#7747;k&#7779;ayam // (78.2)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=72995">nam</a>  <a href="index.php?contents=einzelwort&IDWord=67630">deva</a>-<a href="index.php?contents=einzelwort&IDWord=127371">vasi&#7779;&#7789;ha</a>-<a href="index.php?contents=einzelwort&IDWord=25100">&#299;&#347;a</a>-<a href="index.php?contents=einzelwort&IDWord=93079">prabh&#7771;ti</a>-<a href="index.php?contents=einzelwort&IDWord=30507">&#7771;&#7751;a</a>-<a href="index.php?contents=einzelwort&IDWord=156157">sa&#7747;k&#7779;aya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424558"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424558">FN</a></td></tr>
+	<tr><td width="90%">iti &#347;r&#299;g&#257;ru&#7693;e mah&#257;pur&#257;&#7751;e p&#363;rvakha&#7751;&#7693;e pratham&#257;&#7747;&#347;&#257;khye &#257;c&#257;rak&#257;&#7751;&#7693;e gay&#257;m&#257;h&#257;tmya&#7747; n&#257;ma trya&#347;&#299;titamo 'dhy&#257;ya&#7717; // (79.1)
+	<br><span style="background-color:#e1e1e1"><a href="index.php?contents=einzelwort&IDWord=24302">iti</a>  <a href="index.php?contents=einzelwort&IDWord=147073">&#347;r&#299;</a>-<a href="index.php?contents=einzelwort&IDWord=47936">g&#257;ru&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=108348">mah&#257;pur&#257;&#7751;a</a>  <a href="index.php?contents=einzelwort&IDWord=96506">p&#363;rva</a>-<a href="index.php?contents=einzelwort&IDWord=45436">kha&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=92450">prathama</a>-<a href="index.php?contents=einzelwort&IDWord=19806">a&#7747;&#347;a</a>-<a href="index.php?contents=einzelwort&IDWord=20217">&#257;khy&#257;</a>  <a href="index.php?contents=einzelwort&IDWord=20482">&#257;c&#257;ra</a>-<a href="index.php?contents=einzelwort&IDWord=36531">k&#257;&#7751;&#7693;a</a>  <a href="index.php?contents=einzelwort&IDWord=47155">gay&#257;m&#257;h&#257;tmya</a>  <a href="index.php?contents=einzelwort&IDWord=74350">n&#257;ma</a>  <a href="index.php?contents=einzelwort&IDWord=63120">trya&#347;&#299;titama</a>  <a href="index.php?contents=einzelwort&IDWord=4390">adhy&#257;ya</a></span></td><td width="10%"><a href="index.php?contents=edit_sentence&IDPhrase=424559"><img src="img/arrow_right.gif"></a>&nbsp;<a href="index.php?contents=annotation_framenet&IDPhrase=424559">FN</a></td></tr>
+</table>
+<div style="font-size:0.8em;color:red;">Duration=2.0204110145569 secs.</div>	</div>
+	<div id="footer">
+		
+		<table border="0">
+			<tr>
+				<td>
+					Hosted by <br/>
+					<a href="http://www.asia-europe.uni-heidelberg.de"><img src="img/ClusterLogo.png" border="0"></a>
+				</td>
+				<td>
+					Version 1.6., March 2012 - 
+					<a href="index.php?contents=impressum">Contact, copyright, disclaimer</a>
+				</td>
+				<td>
+<a href="index.php?contents=login">Login</a>				</td>
+			</tr>
+		</table>
+		<!-- Cluster logo -->
+		<!-- <div style="float:left; margin: 0 5 0 5;">
+			
+		</div>-->
+		
+		<!-- <table border="0">
+			<tr>
+				<td>
+					<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://kjc-fs-cluster.kjc.uni-heidelberg.de/dcs/" send="false" width="150" show_faces="false" action="like" font="tahoma"></fb:like>
+				</td>
+				<td valign="top">
+					<script type="text/javascript">
+					  (function(){
+					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					    po.src = 'https://apis.google.com/js/plusone.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+					<g:plusone size="small" annotation="inline" width="200"></g:plusone>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					Version 1.5., December 2011 - 
+					<a href="index.php?contents=impressum">Contact, copyright, disclaimer</a>
+				</td>
+			</tr>
+		</table>-->
+		
+		
+	</div><!-- footer -->
+	<div id="socialshareprivacy" style=""></div>
+	
+</div><!-- container -->
+</body>
+</html>
